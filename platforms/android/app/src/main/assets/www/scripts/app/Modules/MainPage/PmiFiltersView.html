@@ -1,0 +1,43 @@
+﻿<div class="panelHeader">
+    <image class="appBarIcon closePanelIcon" src="./images/icons/Close.svg" ng-click="vm.togglePmiFiltersPanel()" />
+    <span>{{"PMIFilters" | translate}}</span>
+</div>
+
+<div class="panelContent">
+    <div class="panelItem">
+
+        <label class="pmiFiltersHint">{{"PMIPanelState" | translate}}</label>
+        <br />
+
+    </div>
+
+    <div class="panelItem">
+        <ul class="list-group">
+            <li class="pmiFilterListContainer">
+                <div ng-click="vm.selectAll()">
+                    <image class="pmiFilterCheckIcon" src="./images/icons/CheckboxChecked.svg"
+                           ng-show="vm.selectState == 'all'"></image>
+                    <image class="pmiFilterCheckIcon" src="./images/icons/CheckboxPartiallyChecked.svg"
+                           ng-show="vm.selectState=='partial'"></image>
+                    <image class="pmiFilterCheckIcon" src="./images/icons/Checkbox.svg"
+                           ng-show="vm.selectState=='none'"></image>
+                    <span class="pmiFilterText">
+                        {{"SelectAll" | translate}}
+                    </span>
+                </div>
+            </li>
+
+            <li class="pmiFilterListContainer" ng-repeat="item in vm.pmiList">
+                <div ng-click="vm.filterClicked(item)">
+                    <image class="pmiFilterCheckIcon" src="./images/icons/CheckboxChecked.svg"
+                           ng-hide="!item.isOn"></image>
+                    <image class="pmiFilterCheckIcon" src="./images/icons/Checkbox.svg"
+                           ng-hide="item.isOn"></image>
+                    <span class="pmiFilterText">
+                          {{item.filterName}}
+                     </span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

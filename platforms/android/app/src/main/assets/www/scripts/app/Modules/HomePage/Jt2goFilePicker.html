@@ -1,0 +1,48 @@
+﻿<div class="filePickerContainer topEdgeSpacing">
+    <div class="filePickerHeader">
+        <image class="filePickerReturnIcon" src="./images/icons/Return.svg" ng-click="vm.finishFilePicker()"/>
+        <span class="headerText">Select a JT File</span>
+    </div>
+    <div class="filePickerBody">
+        <div class="currentDirectoryRow">
+            <span class="filePickerGoUpButton" ng-class="{disabledFolderIcon: !vm.currentDirectory.parent}" title="Go up one level"
+                  hm-tap="vm.navUp()">
+                <image class="filePickerNavBarIcon" src="./images/icons/FolderUp.svg"  />
+            </span>
+            <span class="currentDirectoryText">{{vm.currentDirectory.fullPath}}</span>
+        </div>
+        <div class="filePickerScroller">
+            <div ng-repeat="item in vm.currentDirectory.subDirectories" class="foldersListContainer" ng-hide="vm.filePickerLoading">
+                <div class="subFolderListRow" title="Tap to open folder"
+                     hm-tap="vm.onFilePickerItemTapped(item)">
+                    <image class="filePickerScrollerListIcon" src="./images/icons/FolderObject.svg" />
+                    <span class="subFolderText">
+                        {{item.name}}
+                    </span>
+                </div>
+            </div>
+
+            <div ng-repeat="item in vm.currentDirectory.files" class="foldersListContainer" ng-hide="vm.filePickerLoading">
+                <table  style="width:100%;">
+                    <tbody>
+                        <tr class="fileListRow" ng-show="(item.extension === 'jt' || item.extension === 'JT' || item.extension === 'Jt' || item.extension === 'jT')" title="Tap to open file"
+                             hm-tap="vm.onFilePickerItemTapped(item)">
+                            <td> <image class="filePickerScrollerListIcon" src="./images/icons/FileObject.svg" /> </td>
+                            <td class="subFileText">
+                                {{item.name}}
+                            </td>
+                            <td class="sizeText">
+                                {{item.displaySize}}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+             
+            <div class="filePickerProgressIndicatorContainer" ng-hide="!vm.filePickerLoading">
+                <div class="progressSpinner"></div>
+            </div>
+        </div>
+    </div>
+</div>
+

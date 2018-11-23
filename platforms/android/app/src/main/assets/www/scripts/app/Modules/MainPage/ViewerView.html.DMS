@@ -1,0 +1,14 @@
+﻿<div class="row" style="background-color:transparent;">
+    <viewer pl-singletap="vm.onTap($event)" pl-doubletap="vm.onDoubleTap($event)" class="col-xs-12" style="background-color:transparent;"></viewer>
+</div>
+<div class="currentPartIndicatorsContainer">
+    <span class="partName">{{vm.currentPart.name}}</span>
+    <div class="currentPartIcons">
+        <image class="currentPartIcon" ng-hide="vm.currentPart.isAssembly" src="./images/icons/Part.png" />
+        <image class="appBarIcon" ng-show="vm.currentPart.isAssembly" src="./images/icons/Assembly.png" />
+        <image class="appBarIcon" ng-show="vm.currentPart.modelViews.length > 0" src="./images/icons/Modelview.png" />
+        <image class="appBarIcon" ng-show="vm.currentPart.hasPmi" src="./images/icons/PMI.png" />
+    </div>
+</div>
+
+<div ui-view="ToolbarView" ></div>

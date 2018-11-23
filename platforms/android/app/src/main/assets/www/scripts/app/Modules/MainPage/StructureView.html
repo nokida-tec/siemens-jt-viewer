@@ -1,0 +1,22 @@
+﻿<ul class="list-group">
+    <li class="structureListItemContainer"
+        ng-repeat="item in vm.contextPart.children track by item.id"
+        ng-class="{partActive: item == vm.selectedPart,
+                   partNormal: item != vm.selectedPart}"
+        pl-scroll="item == vm.selectedPart">
+        <div class="structureIcon"
+             ng-hide="item.isAssembly" ng-click="vm.setVisibility(item)"
+             ng-class="{partIconVisible: item.isVisible,
+                        partIconInvisible: !item.isVisible}"></div>
+        <div class="structureIcon"
+             ng-show="item.isAssembly" ng-click="vm.setVisibility(item)"
+             ng-class="{assemblyIconVisible: item.isVisible,
+                        assemblyIconInvisible: !item.isVisible,
+                        assemblyIconPartiallyVisible: item.isPartiallyVisible}"></div>
+        <span class="structureText"
+              pl-singletap="vm.selectPart(item)"
+              pl-doubletap="vm.expandPart(item)">
+            {{item.name}}
+        </span>
+    </li>
+</ul>

@@ -1,0 +1,10 @@
+﻿<ul class="list-group">
+    <li class="modelViewListItemContainer"
+        ng-repeat="item in vm.modelViews"
+        ng-class="{partActive: item == vm.selectedModelView,
+                   partNormal: item != vm.selectedModelView}"
+        pl-scroll="item == vm.selectedModelView" ng-click="vm.selectModelView(item)">
+        <img class="modelViewThumbStyle" src="{{item.thumb}}" />
+        <div class="modelViewText">{{item.name}}</div>
+    </li>
+</ul>

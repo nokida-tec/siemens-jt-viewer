@@ -23,7 +23,6 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <engine name="android" spec="~7.0.0" />
     <plugin name="cordova-plugin-camera" spec="^4.0.3" />
     <plugin name="cordova-plugin-device" spec="^2.0.2" />
     <plugin name="com.napolitano.cordova.plugin.intent" spec="~0.1.2" />
@@ -38,4 +37,5 @@
     <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
     <plugin name="com.drifty.cordova.cameraroll" spec="~0.2.1" />
     <plugin name="com.siemens.plugin.jt2bod" spec="../cordova-plugin-jt2bod" />
+    <engine name="android" spec="^7.0.0" />
 </widget>

@@ -1,0 +1,62 @@
+﻿<div class="homeViewContainer">
+<div class="row homeViewContainer" ng-show="(vm.homePanelOpen && !vm.geofenceEnabled) " id="homePanel">
+    <div class="col-xs-4 home-column">
+        <p class="lastModelUsed">
+            <img src="images/Logo150X150.png" ng-dblclick="vm.toggleMapView()" style="width:50px;height:50px" />
+            <span class="headerText">JT2GO</span>
+            <img src="images/icons/GeoFencing1.png" ng-click="vm.toggleMapView()" style="float:right;width:25px;height:25px" />
+          
+        </p>
+        <a class="lastThumbContainer"
+           ng-click="vm.selectLastOpened()"
+           ng-show="vm.isRecentFileVisible">
+            <div class="lastThumb"
+                 style="background:url({{vm.recentFile.thumbnail}}) no-repeat center;background-size:contain">
+                <label class="caption lastthumbnailLabel">{{vm.recentFile.name}}</label>
+            </div>
+        </a>
+        <div class="loadContainer" hm-tap="vm.startOpenFileDialog()">
+            <span class="loadText">{{"LoadFile" | translate}}</span>
+            <image class="loadIcon" src="./images/icons/Open.svg"  />
+         </div>
+    </div>
+    <div class="col-xs-4 home-column" ng-hide="(vm.recentFiles.length === 0)" >
+        <p class="homeRecentColumn">
+            {{"Recent" | translate}}
+        </p>
+        <a ng-click="vm.selectRecent(item)"
+           ng-repeat="item in vm.recentFiles track by item.modelPath"
+           class="thumbnail sampleThumbnail"   style="background:url({{item.thumbnail}}) no-repeat center;background-size:cover"   >
+              <label class="caption thumbnailName">{{item.name}}</label>
+        </a>
+    </div>
+    <div class="col-xs-4 home-column sampleList">
+        <p class="homeRecentColumn">
+            {{"Samples" | translate}}
+        </p>
+        <a ng-click="vm.selectSample(item)" class="thumbnail sampleThumbnail"
+           ng-repeat="item in vm.samples track by item.modelPath">
+            <div class="sampleContent" style="background:url({{item.thumbnail}}) no-repeat center;background-size:cover">
+                <label class="caption thumbnailName">{{item.name}}</label>
+            </div>
+        </a>
+    </div>
+    
+</div>
+<!--filepicker-->
+<div class="row" ng-hide="!vm.isFilePickerOpen " ui-view="Jt2GoFilePicker">
+</div>
+
+ <!--License Agreement-->
+<div class="row" ng-hide="!vm.licensePanelOpen " ui-view="LicenseView">
+</div>
+
+<!--Map View-->
+<div class="row" ng-show="vm.homePanelOpen && vm.geofenceEnabled " style="background-color:transparent;" ui-view="MapView" id="mapView">
+    
+</div>
+
+<!-- Localized Download Fail Message-->
+<div  style="display:none"  id="downloadFailText">{{vm.downloadFailText | translate }}</div>
+
+</div>

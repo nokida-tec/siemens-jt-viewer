@@ -1,0 +1,18 @@
+﻿
+<viewer id="plmviswebviewer" pl-singletap="vm.onTap($event)" pl-doubletap="vm.onDoubleTap($event)" class="content"></viewer>
+
+<div class="currentPartIndicatorsContainer topEdgeSpacing">
+    <span class="partName">{{vm.currentPart.name}}</span>
+    <div class="currentPartIcons">
+        <image class="viewerHintIcon" ng-hide="vm.currentPart.isAssembly" src="./images/icons/Part.svg" />
+        <image class="viewerHintIcon" ng-show="vm.currentPart.isAssembly" src="./images/icons/Assembly.svg" />
+        <image class="viewerHintIcon" ng-show="vm.currentPart.modelViews.length > 0" src="./images/icons/Modelview.svg" />
+        <image class="viewerHintIcon" ng-show="vm.currentPart.hasPmi" src="./images/icons/PMI.svg" />
+    </div>
+</div>
+
+<div class="progressIndicatorContainer progressIndicatorViewerIndex col-xs-12" ng-hide="!vm.isLoadingThumbs">
+    <div class="progressSpinner"></div>
+</div> 
+
+<div ui-view="ToolbarView" ></div>

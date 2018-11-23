@@ -1,0 +1,39 @@
+﻿<div class="panelHeader" ng-show="vm.isNavigatorExpanded">
+    <span  class="panelHeader">{{ vm.currentMode | translate}}</span>
+    <image   class="appBarIcon closePanelIcon" src="./images/icons/Close.svg" ng-click="vm.toggleNavigator()"/>
+</div>
+
+<div class="navLeftPanel">
+	<a ui-sref="HomeView" home> <!-- used to return to the home page-->
+	</a>
+	<ul style="display:none"> <!-- These are used to change between the strucutre and model view panels-->
+		<li role="presentation" ng-repeat="item in vm.modes">
+            <a  id="{{'mode' + $index}}" ui-sref="MainView.Context({mode:item.name, contextPart:vm.contextPart.id})">
+            </a>
+		</li>
+	</ul>
+</div>
+
+<div class="navMainPanel" ng-class="{hidden: !vm.isNavigatorExpanded}">
+	<ul class="breadcrumb-list-group">
+		<li class="breadcrumbListItemContainer" ng-repeat="item in vm.breadCrumbs track by item.id" ng-class="{breadcrumbActive: item == vm.displayPart, breadcrumbNormal: item != vm.displayPart}">
+			<div class="structureIcon"
+				 ng-hide="item.isAssembly"
+				 ng-class="{partIconVisible: item.isVisible,
+                            partIconInvisible: !item.isVisible}"
+                 ng-click="vm.setVisibility(item)"
+                 ></div>
+			<div class="structureIcon"
+				 ng-show="item.isAssembly"
+				 ng-class="{assemblyIconVisible: item.isVisible,
+                            assemblyIconInvisible: !item.isVisible,
+                            assemblyIconPartiallyVisible: item.isPartiallyVisible}"
+                 ng-click="vm.setVisibility(item)"></div>
+			<span class="breadcrumbText" pl-doubletap="vm.expandPart(item)" pl-singletap="vm.setDisplayPart(item)">
+				{{item.name}}
+			</span>
+		</li>
+	</ul>
+	<div id="navScroller" resize-navigator class="listContainer listContainerWell container-fluid navAnimation" ui-view style="top:0; position:relative">
+	</div>
+</div>

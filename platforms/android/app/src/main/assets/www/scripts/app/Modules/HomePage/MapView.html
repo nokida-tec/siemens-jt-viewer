@@ -1,0 +1,60 @@
+﻿
+<div id="outerMapView" ng-hide="!vm.geofenceEnabled" style="width:100%;height:100%;opacity:1;">
+    
+    <div class="mapViewHeader row" id="mapHeader" style="height:50px;margin: 0;padding: 0;position:fixed;width:100%;top:0;z-index:4;">
+        <img src="images/icons/Home.svg" style="height:25px;width:25px;margin-left:5px;display:inline-block;" ng-click="vm.toggleMapView()"/>
+        <h3 class="mapViewTitleHeader" style="position:relative; width:80%;display:inline-block;text-align:center;">JT2Go-Go</h3>
+        <img src="images/icons/Reset.svg" style="height:25px;width:25px;display:inline-block; " ng-click="vm.resetGeofenceList()"/>
+    </div>
+    
+    <div class="" style="height:auto;margin:0 0 0 0;padding:65px 0 0 0;width:100%;z-index:3;" id="contentPanel">
+        <div class="" id="scorePanel" style="height:auto;width:100%;">
+            <h1 style="text-align:center;margin-bottom:10px;">Current Score</h1>
+            <div class="divider" style="width:20%;height:2px;background-color:#55a0b9;margin:2px auto 20px auto;"></div>
+            <h3 id="scoreIndicatorText" style="text-align:center;margin-top:0px;">{{vm.visitedFiles.length}}/{{vm.totalNumOfFences}} elements visited</h3>
+            <progress id="scoreProgress" style="margin:auto;width:300px;position:relative;left:50%;margin:4px 0 0 -150px;" class="progress" value="{{vm.visitedFiles.length}}" max="{{vm.totalNumOfFences}}">50%</progress>
+            <div id="winnerContent" ng-hide="vm.visitedFiles.length != vm.totalNumOfFences" style="height:40px;margin:10px auto 10px auto">
+                <h4 style="text-align:center;color:#55a0b9;">Good job collecting all {{vm.totalNumOfFences}} files! <br />Head to the Siemens booth to collect your prize.</h4>
+
+            </div>
+        </div>
+
+        <div class="" style="height:auto;width:100%;margin-top:15%;margin-bottom:75px;max-height:50%;"  id="foundItemsPanel" >
+            <h1 style="text-align:center;">Visited Elements</h1>
+            <div class="divider" style="width:20%;height:2px;background-color:#55a0b9;margin:2px auto 20px auto;"></div>
+            <div style="" ng-hide="vm.visitedFiles.length != 0" id="noVisitedHint">
+                <p style="margin:auto;text-align:center;"> No items have been visited. <br /> Click the 'Open Map' button below to locate them!</p>
+            </div>
+            <div class="" ng-hide="vm.visitedFiles.length == 0" style="width:84%;position:relative;left:11%;" id="foundItemsDiv">
+                <a ng-click="vm.selectRecent(item)" ng-model="visitedPanel" id="tempID"
+                   ng-repeat="item in vm.visitedFiles track by item.modelPath"
+                   class="thumbnail sampleThumbnail" style="background:url({{item.thumbnail}}) no-repeat center;background-size:cover;position:relative;margin:0 10px 10px 0;padding:0;width:{{vm.visitedElementSize}};height:{{vm.visitedElementSize}};">
+                    <label class="" style="vertical-align:bottom;text-align:left;bottom:1px;margin:0;font-size:1em;color:#333;position:absolute;">{{item.name}}</label>
+                </a>
+            </div>
+        </div>
+
+        <button type="button" ng-click="vm.openMap()" ng-hide="vm.visitedFiles.length == vm.totalNumOfFences" class="btn btn-primary btn-lg btn-block" style="position:fixed;width:200px;height:60px;background-color:#55a0b9;top:100%;left:50%;margin:-70px 0 0 -100px;border:none;">
+            Open Map
+        </button>
+    </div>
+</div>
+
+<div id="geofenceAcceptionPage" style="width:100%;height:100%;margin:0;opacity:0.1;" ng-hide="vm.geofenceEnabled" >
+    <div id="geoHeader" style="height:55px;width:100%;position:absolute;top:0px;padding-top:5px;">
+        <h1 style="text-align:center;margin:auto;">JT File Search</h1>
+        <div class="divider" style="width:20%;height:2px;background-color:#55a0b9;margin:2px auto 0 auto;bottom:0;"></div>
+    </div>
+    <div id="geoText" style="width:100%;height:100%;padding:55px 0 15% 0;position:absolute;background-color:transparent;margin:0;">
+        <h4 style="color:#55a0b9;text-align:center;top:20%;padding:0;position:relative;max-width:350px;margin:auto;">We've placed JT files all over the Microsoft campus. This mode allows you to open a map to see where all the files are.</h4>
+        <h4 style="color:#55a0b9;text-align:center;top:40%;padding:0;position:relative;">Visit all {{vm.totalNumOfFences}} files and win something!</h4>
+        <h4 style="color:#55a0b9;text-align:center;top:60%;padding:0;position:relative;">Click start to begin visiting the files!</h4>
+
+    </div>
+    <div id="geoButtons" style="width:70%;height:15%;max-height:60px;left:15%;position:absolute;bottom:0;margin:0;">
+        <button style="background-color:#55a0b9;width:45%;height:50px;border:none;margin:auto 10% 0 0;float:left;color:white;" ng-click="vm.toggleMapView()">Cancel</button>
+        <button style="background-color:#55a0b9;width:45%;height:50px;border:none;color:white;margin:auto 0 0 0" ng-click="vm.searchStarted()">Start</button>
+    </div>
+    
+
+</div>
