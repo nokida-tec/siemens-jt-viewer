@@ -315,6 +315,14 @@ module.exports = [
     "clobbers": [
       "CameraRoll"
     ]
+  },
+  {
+    "id": "com.siemens.plugin.jt2bod.jt2bod",
+    "file": "plugins/com.siemens.plugin.jt2bod/www/jt2bod.js",
+    "pluginId": "com.siemens.plugin.jt2bod",
+    "clobbers": [
+      "jt2bod"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -333,7 +341,8 @@ module.exports.metadata =
   "cordova-plugin-media": "5.0.2",
   "cordova-plugin-inappbrowser": "3.0.0",
   "cordova-plugin-globalization": "1.11.0",
-  "com.drifty.cordova.cameraroll": "0.2.1"
+  "com.drifty.cordova.cameraroll": "0.2.1",
+  "com.siemens.plugin.jt2bod": "0.0.2"
 };
 // BOTTOM OF METADATA
 });

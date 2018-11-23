@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<plugin id="com.siemens.plugin.jt2bod" version="0.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Jt2Bod</name>
+    <description>Cordova plugin to support mobile JT 3D</description>
+    <author>Yingmingbo, Nokida</author>
+    <license>Apache 2.0</license>
+    <keywords>cordova,speech,recognizer,synthesizer,iflytek</keywords>
+    <repo>http://dev.eyun.online:81/nokida/siemens/cordova-plugin-jt2bod.git</repo>
+
+    <engines>
+        <engine name="cordova" version=">=3.3.0" />
+    </engines>
+    
+    <js-module src="www/jt2bod.js" name="jt2bod">
+        <clobbers target="jt2bod" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Jt2Bod" >
+                <param name="android-package" value="com.siemens.plugin.Jt2Bod"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Jt2Bod.java" target-dir="src/com/siemens/plugin" />
+        <source-file src="src/android/BodConverter.java" target-dir="src/com/siemens/plugin" />
+        <source-file src="src/android/libs/armeabi-v7a/libJt81.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libJtLibra81.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libJtSupt81.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libJtXTBrep81.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libplmBodConverter-jni.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libpskernel.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libJtBrep81.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libJtSimp81.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libJtTk83.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libjt2bod.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libpsbodyshop.so" target-dir="app/libs/armeabi-v7a" />
+        <source-file src="src/android/libs/armeabi-v7a/libpsxttoolkit.so" target-dir="app/libs/armeabi-v7a" />
+
+        <!-- Custom gradle file to setup NDK for debugging -->
+        <source-file src="src/android/build-extras.gradle" target-dir="."/>
+
+    </platform>
+
+</plugin>
+

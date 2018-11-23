@@ -22,6 +22,7 @@
         "cordova-plugin-googlemaps": "^2.4.6",
         "cordova-plugin-inappbrowser": "^3.0.0",
         "cordova-plugin-intent": "^0.1.2",
+        "cordova-plugin-jt2bod": "file:../cordova-plugin-jt2bod",
         "cordova-plugin-media": "^5.0.2",
         "cordova-plugin-splashscreen": "^5.0.2",
         "cordova-plugin-vibration": "^3.1.0",
@@ -42,7 +43,8 @@
             "cordova-plugin-media": {},
             "cordova-plugin-inappbrowser": {},
             "cordova-plugin-globalization": {},
-            "com.drifty.cordova.cameraroll": {}
+            "com.drifty.cordova.cameraroll": {},
+            "com.siemens.plugin.jt2bod": {}
         },
         "platforms": [
             "android"

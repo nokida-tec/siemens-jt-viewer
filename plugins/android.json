@@ -48,6 +48,9 @@
     },
     "com.drifty.cordova.cameraroll": {
       "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "com.siemens.plugin.jt2bod": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
     }
   },
   "dependent_plugins": {}

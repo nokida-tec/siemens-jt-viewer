@@ -118,5 +118,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "com.siemens.plugin.jt2bod": {
+    "source": {
+      "type": "local",
+      "path": "/Volumes/WORK/code/JTViewer/node_modules/cordova-plugin-jt2bod"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

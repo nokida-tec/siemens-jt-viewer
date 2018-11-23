@@ -58,4 +58,8 @@
     <feature name="Globalization">
         <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
     </feature>
+    <feature name="Jt2Bod">
+        <param name="android-package" value="com.siemens.plugin.Jt2Bod" />
+        <param name="onload" value="true" />
+    </feature>
 </widget>
