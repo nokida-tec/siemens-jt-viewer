@@ -110,5 +110,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "com.drifty.cordova.cameraroll": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera-roll"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

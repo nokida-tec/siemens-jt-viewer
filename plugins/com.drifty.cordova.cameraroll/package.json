@@ -1,0 +1,57 @@
+{
+  "_from": "cordova-plugin-camera-roll",
+  "_id": "cordova-plugin-camera-roll@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha1-L+ot5PGXkUbiMQRkdhH3A6/OhAY=",
+  "_location": "/cordova-plugin-camera-roll",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-camera-roll",
+    "name": "cordova-plugin-camera-roll",
+    "escapedName": "cordova-plugin-camera-roll",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/cordova-plugin-camera-roll/download/cordova-plugin-camera-roll-1.0.8.tgz",
+  "_shasum": "2fea2de4f1979146e23104647611f703afce8406",
+  "_spec": "cordova-plugin-camera-roll",
+  "_where": "/Volumes/WORK/code/JTViewer",
+  "author": {
+    "name": "Ionic"
+  },
+  "bugs": {
+    "url": "https://github.com/driftyco/cordova-plugin-camera-roll/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-camera-roll",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova CameraRoll Plugin",
+  "homepage": "https://github.com/driftyco/cordova-plugin-camera-roll#readme",
+  "issue": "https://github.com/driftyco/cordova-plugin-camera-roll/issues",
+  "keywords": [
+    "ionic",
+    "cordova",
+    "cameraroll",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-camera-roll",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driftyco/cordova-plugin-camera-roll.git"
+  },
+  "version": "1.0.8"
+}

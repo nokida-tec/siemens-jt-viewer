@@ -45,6 +45,9 @@
     },
     "cordova-plugin-globalization": {
       "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "com.drifty.cordova.cameraroll": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
     }
   },
   "dependent_plugins": {}

@@ -307,6 +307,14 @@ module.exports = [
     "clobbers": [
       "navigator.globalization"
     ]
+  },
+  {
+    "id": "com.drifty.cordova.cameraroll.CameraRoll",
+    "file": "plugins/com.drifty.cordova.cameraroll/www/CameraRoll.js",
+    "pluginId": "com.drifty.cordova.cameraroll",
+    "clobbers": [
+      "CameraRoll"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -324,7 +332,8 @@ module.exports.metadata =
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-media": "5.0.2",
   "cordova-plugin-inappbrowser": "3.0.0",
-  "cordova-plugin-globalization": "1.11.0"
+  "cordova-plugin-globalization": "1.11.0",
+  "com.drifty.cordova.cameraroll": "0.2.1"
 };
 // BOTTOM OF METADATA
 });

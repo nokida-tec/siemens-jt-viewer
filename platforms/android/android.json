@@ -168,6 +168,9 @@
     },
     "cordova-plugin-globalization": {
       "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "com.drifty.cordova.cameraroll": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
     }
   },
   "dependent_plugins": {},
@@ -479,6 +482,14 @@
       "clobbers": [
         "navigator.globalization"
       ]
+    },
+    {
+      "id": "com.drifty.cordova.cameraroll.CameraRoll",
+      "file": "plugins/com.drifty.cordova.cameraroll/www/CameraRoll.js",
+      "pluginId": "com.drifty.cordova.cameraroll",
+      "clobbers": [
+        "CameraRoll"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -494,6 +505,7 @@
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-media": "5.0.2",
     "cordova-plugin-inappbrowser": "3.0.0",
-    "cordova-plugin-globalization": "1.11.0"
+    "cordova-plugin-globalization": "1.11.0",
+    "com.drifty.cordova.cameraroll": "0.2.1"
   }
 }

@@ -36,4 +36,5 @@
     <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
     <plugin name="cordova-plugin-globalization" spec="^1.11.0" />
     <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
+    <plugin name="com.drifty.cordova.cameraroll" spec="~0.2.1" />
 </widget>
