@@ -1,0 +1,37 @@
+﻿<div class="row viewer"
+     ng-style="{'background-color': vm.viewer.BackgroundColor.value}">
+    <img style="height:100%; width:100%;" ng-show="vm.viewer.ImageOn" src="{{vm.viewer.BackgroundImage}}" />
+    <div class="main-content viewerContainer" ui-view="ViewerView" ng-hide="$parent.vm.isLoading"></div>
+
+    <div  class="navPushed" ng-class="{sidebar: vm.isNavigatorExpanded, smallScreenSidePanel: vm.isSmallScreenWidth}" >
+        <div ui-view="NavigatorView" ng-hide="$parent.vm.isLoading" ></div>
+    </div>
+    
+
+    <div class="rightHotArea" hm-swipeleft="vm.toggleSettingPanel()">
+    </div>
+    <div class="rightPanel"  ng-class="{hidden: !vm.settingPanelVisible , smallScreenSidePanel: vm.isSmallScreenWidth}"  >
+        <div class="settingsPanel container-fluid" ui-view="SettingView"></div>
+        <!-- other panels -->
+    </div>
+    <div class="rightPanel" ng-class="{hidden: !vm.propertiesPanelVisible,  smallScreenSidePanel: vm.isSmallScreenWidth}" >
+
+        <div class="rightInjectedPanel container-fluid" ui-view="PropertiesView"></div>
+    </div>
+    <div class="rightPanel" ng-class="{hidden: !vm.pmiFiltersPanelVisible,  smallScreenSidePanel: vm.isSmallScreenWidth}">
+        <div class="rightInjectedPanel container-fluid" ui-view="PmiFiltersView"></div>
+    </div>
+    <div class="rightPanel" ng-class="{hidden: !vm.legalPanelVisible,  smallScreenSidePanel: vm.isSmallScreenWidth}">
+        <div class="rightInjectedPanel container-fluid" ui-view="LegalView"></div>
+    </div>
+</div>
+ 
+<div class="progressIndicatorContainer progressIndicatorMainIndex col-xs-12" ng-hide="!vm.isLoading">
+    <div class="progressSpinner"></div>
+</div> 
+
+<!-- temporarily disable Chevron for hiding toolbar, will re-enable for 4.0  
+<div pl-singletap="vm.toggleToolbar()" ng-hide= "vm.isNavigatorExpanded" class="ChevronMark"    ng-class="{ChevronMarkExpanded: vm.isToolbarVisible }"   >
+    <image  src="images/icons/ChevronOpen.svg"  ng-hide= "vm.isToolbarVisible"  />
+    <image  src="images/icons/ChevronClose.png" ng-show= "vm.isToolbarVisible" />
+</div>      -->

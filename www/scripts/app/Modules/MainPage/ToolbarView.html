@@ -1,0 +1,40 @@
+﻿<!--// @<COPYRIGHT>
+    @
+    // ==================================================
+    // Copyright 2016.
+    // Siemens Product Lifecycle Management Software Inc.
+    // All Rights Reserved.
+    // ==================================================
+    // @<COPYRIGHT> @
+-->
+
+<!-- Docked Toolbar -->
+<div ng-show= "vm.isToolbarVisible" class="dockedToolbar"> 
+    <ul class="toolbarListContainerVertical dockedToolbarListContainer">
+        <li class="toolbarListItemVertical" hold="vm.handleTooltip($event)">
+            <div class="toolbarMenuBackground dockedTooltipContainer" id="HometoolTip">
+                &nbsp; {{"HomeTooltip" | translate}} &nbsp;
+            </div>
+
+            <a ui-sref="HomeView">
+                <div class="toolbarItemContainer" ng-class="{smallScreenToolbarItem: vm.isSmallScreenHeight}">
+                    <image class="appBarIcon" src="images/icons/Home.svg" id="Home" />
+                </div>
+            </a>
+        </li>
+
+        <li ng-repeat="item in vm.tools" class="toolbarListItemVertical" hold="vm.handleTooltip($event)" >
+            <div class="toolbarMenuBackground dockedTooltipContainer" id="{{item.name + 'toolTip'}}">
+                &nbsp; {{item.tooltip | translate}} &nbsp;
+            </div>
+
+            <div ng-class="{toolbarItemDisabled: !item.isEnabled}">
+                <div ng-click="item.executeCommand();">
+                    <div class="toolbarItemContainer" ng-class="{smallScreenToolbarItem: vm.isSmallScreenHeight}">
+                        <image class="appBarIcon" src="{{item.png}}" id="{{item.name}}" />
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

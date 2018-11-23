@@ -1,0 +1,127 @@
+﻿<div class="panelHeader">
+    <image class="appBarIcon closePanelIcon" src="./images/icons/Close.svg" ng-click="vm.toggleSettingPanel()" />
+    <span>{{"Settings" | translate}}</span>
+</div>
+
+<div class="panelContent">
+    <div class="panelItem">
+        <label class="panelLabel">{{"SettingLanguage" | translate}}</label>
+        <br />
+        <!-- single button dropdown -->
+        <div class="panelSelectControl btn-group" uib-dropdown>
+            <button type="button" class="btn btn-primary" uib-dropdown-toggle>
+                <span class="Text">{{vm.language.displayName}}</span>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" uib-dropdown-menu role="menu">
+                <li ng-repeat="item in vm.languages" ng-click="vm.language = item">
+                    <a>
+                        <span class="Text">{{item.displayName}}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="panelItem">
+        <label class="panelLabel">{{"BackgroundColor" | translate}}</label>
+        <br />
+        <!-- single button dropdown -->
+        <div class="panelSelectControl btn-group" uib-dropdown>
+            <button type="button" class="btn btn-primary" uib-dropdown-toggle>
+                <span class="Block" ng-style="{background: vm.backgroundColor.value}"></span>
+                <span class="Text">{{vm.backgroundColor.name | translate}}</span>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" uib-dropdown-menu role="menu">
+                <li ng-repeat="item in vm.backgroundColors" ng-click="vm.backgroundColor = item">
+                    <a>
+                        <span class="Block" ng-style="{background: item.value}"></span>
+                        <span class="Text">{{item.name | translate}}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="panelItem">
+        <label class="panelLabel">{{"SelectionColor" | translate}}</label>
+        <br />
+        <!-- single button dropdown -->
+        <div class="panelSelectControl btn-group" uib-dropdown>
+            <button type="button" class="btn btn-primary" uib-dropdown-toggle>
+                <span class="Block" ng-style="{background: vm.selectionColor.value}"></span>
+                <span class="Text">{{vm.selectionColor.name | translate}}</span>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" uib-dropdown-menu role="menu">
+                <li ng-repeat="item in vm.selectionColors" ng-click="vm.selectionColor = item">
+                    <a>
+                        <span class="Block" ng-style="{background: item.value}"></span>
+                        <span class="Text">{{item.name | translate}}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="panelItem">
+        <label class="panelLabel">{{"PMIColor" | translate}}</label>
+        <br />
+        <!-- single button dropdown -->
+        <div class="panelSelectControl btn-group" uib-dropdown>
+            <button type="button" class="btn btn-primary dropdown-toggle" uib-dropdown-toggle>
+                <span class="Block" ng-style="{background: vm.pmiColor.value}"></span>
+                <span class="Text">{{vm.pmiColor.name | translate}}</span>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" uib-dropdown-menu role="menu">
+                <li ng-repeat="item in vm.pmiColors" ng-click="vm.pmiColor = item">
+                    <a>
+                        <span class="Block" ng-style="{background: item.value}"></span>
+                        <span class="Text">{{item.name | translate}}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="panelItem">
+        <label class="panelLabel">{{"ViewType" | translate}}</label>
+        <br />
+        <!-- single button dropdown -->
+        <div class="panelSelectControl btn-group" uib-dropdown>
+            <button type="button" class="btn btn-primary dropdown-toggle" uib-dropdown-toggle>
+                <span class="Text">{{vm.viewType | translate}}</span>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" uib-dropdown-menu role="menu">
+                <li ng-repeat="item in vm.viewTypes" ng-click="vm.viewType = item">
+                    <a>
+                        <span class="Text">{{item | translate}}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+       
+    <div class="panelItem">
+        <label class="panelLabel" ng-click="vm.openHelpPage()">{{"Help" | translate}}</label>
+    </div>
+    <div class="panelItem">
+        <label class="panelLabel" ng-click="vm.toggleLegalPanel()">{{"Legal" | translate}}</label>
+        <br />
+    </div>
+    <div class="panelItem">
+        <label class="panelLabel" ng-click="vm.openPrivacyPage()">{{"PrivacyPolicy" | translate}}</label>
+    </div>
+
+    <div class="panelItem">
+        <div class="restoreDefault" ng-click="vm.RestoreDefaults()">
+            <image class="appBarIcon" src="./images/icons/RestoreDefaults.svg" />
+            <span>{{"RestoreDefaults" | translate}}</span>
+        </div>
+        <br />
+        <div>
+            Copyright 2016 Siemens Product Lifecycle Management Software Inc.
+        </div>
+    </div>
+
+</div>
+

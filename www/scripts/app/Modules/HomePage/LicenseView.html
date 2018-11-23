@@ -1,0 +1,11 @@
+﻿<div class="panelHeader">
+      <span class="headerText">{{vm.licensePanelTitle}}</span>
+</div>
+<div class="panelContent" ui-view="LicenseContentView">
+</div>
+
+<div class="panelFooter">
+    <button type="button" ng-click="vm.setLicenseAccepted()" title="Accept"> Accept </button>
+    <button type="button" ng-click="vm.setLicenseDeclined()" title="Decline"> Decline </button>
+
+</div>

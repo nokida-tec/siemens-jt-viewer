@@ -1,0 +1,8 @@
+﻿<div class="legalPanelHeader">
+    <image class="appBarIcon closePanelIcon" src="./images/icons/Close.svg" ng-click="vm.toggleLegalPanel()" />
+    <span class="headerText">{{vm.licensePanelTitle}}</span>
+</div>
+
+<div class="legalPanelScrollPanel"  ui-view="LegalContentView"> </div>
+<br /> 
+<label class="panelLabel" ng-click="vm.openThirdParty();">Notices For Third Party Software</label>

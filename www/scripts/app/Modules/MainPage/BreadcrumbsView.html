@@ -1,0 +1,5 @@
+﻿<ol class="breadcrumb">
+    <li ng-repeat="item in vm.breadCrumbs track by item.id" ng-class="{active: item == vm.contextPart}">
+        <a ui-sref="MainView.Mode.ContextPart({contextPart:item.name})">{{item.name}}</a>
+    </li>
+</ol>

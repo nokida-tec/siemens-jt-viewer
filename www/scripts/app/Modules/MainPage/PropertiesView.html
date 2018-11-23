@@ -1,0 +1,25 @@
+﻿<div class="panelHeader">
+    <image class="appBarIcon closePanelIcon" src="./images/icons/Close.svg" ng-click="vm.togglePropertiesPanel()" />
+    <span>{{"Properties" | translate}}</span>
+</div>
+
+<div class="panelContent">
+    <div class="panelItem">
+
+        <label class="propertiesPanelLabel">{{vm.currentPart.name}}</label>
+        <br />
+    </div>
+
+    <div class="panelItem" >
+        <ul class="list-group">
+          
+                    <li class="propertyListContainer" ng-repeat="item in vm.currentPart.properties">
+                        <span class="propertyListKeyColumn" title="{{item.name}}">{{item.name}}</span>
+                        <span class="propertyListValueColumn" title="{{item.value}}">{{item.value}}</span>
+                    </li>
+               
+        </ul>
+
+    </div>
+
+</div>

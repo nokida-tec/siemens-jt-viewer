@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3C91AF;}
+	.st1{fill:#CDE6EB;}
+	.st2{fill:#CCE6EB;}
+	.st3{fill:#CCE5EB;}
+	.st4{fill:#CCE5EA;}
+	.st5{fill:#CBE5EA;}
+	.st6{fill:#CAE4EA;}
+	.st7{fill:#C9E4EA;}
+	.st8{fill:#C9E4E9;}
+	.st9{fill:#C8E3E9;}
+	.st10{fill:#C7E3E9;}
+	.st11{fill:#C6E2E8;}
+	.st12{fill:#C5E2E8;}
+	.st13{fill:#C4E1E8;}
+	.st14{fill:#C3E1E7;}
+	.st15{fill:#C2E0E7;}
+	.st16{fill:#C1E0E7;}
+	.st17{fill:#C1DFE6;}
+	.st18{fill:#C0DFE6;}
+	.st19{fill:#BFDEE6;}
+	.st20{fill:#BEDEE5;}
+	.st21{fill:#BDDDE5;}
+	.st22{fill:#BCDDE4;}
+	.st23{fill:#BBDCE4;}
+	.st24{fill:#BADCE4;}
+	.st25{fill:#B9DBE3;}
+	.st26{fill:#B8DBE3;}
+	.st27{fill:#B7DAE2;}
+	.st28{fill:#B6DAE2;}
+	.st29{fill:#B5D9E2;}
+	.st30{fill:#B4D8E1;}
+	.st31{fill:#B2D8E1;}
+	.st32{fill:#B1D7E0;}
+	.st33{fill:#B0D6E0;}
+	.st34{fill:#AFD6DF;}
+	.st35{fill:#AED5DF;}
+	.st36{fill:#ADD5DF;}
+	.st37{fill:#ABD4DE;}
+	.st38{fill:#AAD3DE;}
+	.st39{fill:#A9D3DD;}
+	.st40{fill:#A8D2DD;}
+	.st41{fill:#A6D1DC;}
+	.st42{fill:#A5D1DC;}
+	.st43{fill:#A4D0DB;}
+	.st44{fill:#A3CFDB;}
+	.st45{fill:#A1CEDA;}
+	.st46{fill:#A0CEDA;}
+	.st47{fill:#9FCDD9;}
+	.st48{fill:#9DCCD9;}
+	.st49{fill:#9CCCD8;}
+	.st50{fill:#9BCBD8;}
+	.st51{fill:#99CAD7;}
+	.st52{fill:#98C9D6;}
+	.st53{fill:#96C9D6;}
+	.st54{fill:#95C8D5;}
+	.st55{fill:#93C7D5;}
+	.st56{fill:#92C6D4;}
+	.st57{fill:#90C5D4;}
+	.st58{fill:#8FC5D3;}
+	.st59{fill:#8EC4D3;}
+	.st60{fill:#8CC3D2;}
+	.st61{fill:#A0CEDB;}
+	.st62{fill:#9FCEDA;}
+	.st63{fill:#9ECDDA;}
+	.st64{fill:#9CCCD9;}
+	.st65{fill:#99CAD8;}
+	.st66{fill:#98CAD8;}
+	.st67{fill:#97C9D7;}
+	.st68{fill:#96C8D7;}
+	.st69{fill:#95C8D6;}
+	.st70{fill:#94C7D6;}
+	.st71{fill:#93C6D5;}
+	.st72{fill:#92C6D5;}
+	.st73{fill:#8FC5D4;}
+	.st74{fill:#8DC3D3;}
+	.st75{fill:#8BC2D2;}
+	.st76{fill:#8AC1D2;}
+	.st77{fill:#89C1D1;}
+	.st78{fill:#88C0D1;}
+	.st79{fill:#87C0D0;}
+	.st80{fill:#86BFD0;}
+	.st81{fill:#85BECF;}
+	.st82{fill:#84BECF;}
+	.st83{fill:#83BDCF;}
+	.st84{fill:#82BDCE;}
+	.st85{fill:#81BCCE;}
+	.st86{fill:#80BCCD;}
+	.st87{fill:#7FBBCD;}
+	.st88{fill:#7EBBCD;}
+	.st89{fill:#7DBACC;}
+	.st90{fill:#7CB9CC;}
+	.st91{fill:#7BB8CB;}
+	.st92{fill:#7AB8CB;}
+	.st93{fill:#79B7CA;}
+	.st94{fill:#78B7CA;}
+	.st95{fill:#77B7CA;}
+	.st96{fill:#77B6CA;}
+	.st97{fill:#76B6C9;}
+	.st98{fill:#75B5C9;}
+	.st99{fill:#74B5C8;}
+	.st100{fill:#73B4C8;}
+	.st101{fill:#888888;}
+	.st102{fill:none;}
+	.st103{fill:#F2F2F2;}
+	.st104{fill:#F1F1F1;}
+	.st105{fill:#F0F0F0;}
+	.st106{fill:#EFEFEF;}
+	.st107{fill:#EEEEEE;}
+	.st108{fill:#EDEDED;}
+	.st109{fill:#ECECEC;}
+	.st110{fill:#EBEBEB;}
+	.st111{fill:#EAEAEA;}
+	.st112{fill:#E9E9E9;}
+	.st113{fill:#E8E8E8;}
+	.st114{fill:#E7E7E7;}
+	.st115{fill:#E6E6E6;}
+	.st116{fill:#E5E5E5;}
+	.st117{fill:#E4E4E4;}
+	.st118{fill:#E3E3E3;}
+	.st119{fill:#E2E2E2;}
+	.st120{fill:#E1E1E1;}
+	.st121{fill:#E0E0E0;}
+	.st122{fill:#DEDEDE;}
+	.st123{fill:#DDDDDD;}
+	.st124{fill:#DCDCDC;}
+	.st125{fill:#DBDBDB;}
+	.st126{fill:#DADADA;}
+	.st127{fill:#D9D9D9;}
+	.st128{fill:#D8D8D8;}
+	.st129{fill:#D7D7D7;}
+	.st130{fill:#D6D6D6;}
+	.st131{fill:#D5D5D5;}
+	.st132{fill:#D4D4D4;}
+	.st133{fill:#D3D3D3;}
+	.st134{fill:#D2D2D2;}
+	.st135{fill:#D1D1D1;}
+	.st136{fill:#D0D0D0;}
+	.st137{fill:#CFCFCF;}
+	.st138{fill:#CECECE;}
+	.st139{fill:#CDCDCD;}
+	.st140{fill:#CCCCCC;}
+	.st141{fill:#FFFFFF;}
+	.st142{fill:#FEFEFE;}
+	.st143{fill:#FDFDFD;}
+	.st144{fill:#FCFCFC;}
+	.st145{fill:#FBFBFB;}
+	.st146{fill:#FAFAFA;}
+	.st147{fill:#F9F9F9;}
+	.st148{fill:#F8F8F8;}
+	.st149{fill:#F7F7F7;}
+	.st150{fill:#F6F6F6;}
+	.st151{fill:#F5F5F5;}
+	.st152{fill:#F4F4F4;}
+	.st153{fill:#F3F3F3;}
+	.st154{fill:#DFDFDF;}
+	.st155{fill:#CBCBCB;}
+	.st156{fill:#CACACA;}
+	.st157{fill:#C8C8C8;}
+	.st158{fill:#C7C7C7;}
+	.st159{fill:#C5C5C5;}
+	.st160{fill:#C4C4C4;}
+	.st161{fill:#C2C2C2;}
+	.st162{fill:#C1C1C1;}
+	.st163{fill:#C0C0C0;}
+	.st164{fill:#BEBEBE;}
+	.st165{fill:#6E6E6E;}
+	.st166{fill:#147391;}
+	.st167{fill:#464646;}
+</style>
+<metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c111 79.158366, 2015/09/25-01:12:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/"
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <dc:format>image/svg+xml</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">typeItemRevision32</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <xmp:CreatorTool>Adobe Illustrator CC 2015 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2016-03-16T17:17:26-07:00</xmp:CreateDate>
+         <xmp:ModifyDate>2016-03-16T17:17:26-07:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2016-03-16T17:17:26-07:00</xmp:MetadataDate>
+         <xmp:Thumbnails>
+            <rdf:Alt>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpGImg:width>256</xmpGImg:width>
+                  <xmpGImg:height>256</xmpGImg:height>
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgBAAEAAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8A9U4q7FXYq7FXYq7FXYq7&#xA;FXYq7FWMedPzI8qeULctqt0DdsvKHT4aPcP4fBX4Qf5mIGKvnXz7+d/mvzR6lpbN+idIbb6pAx9S&#xA;Rf8Ai2XZm/1RRfY4qxnyl578z+VLv6xo140SMay2r/HBJ/rxnb6Rv74q+hvIX59+WfMHp2erldG1&#xA;VqKBK3+jSN/kSmnEn+V/oJxV6iDXcdMVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirs&#xA;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&#xA;2KuxV2KuxV//2Q==</xmpGImg:image>
+               </rdf:li>
+            </rdf:Alt>
+         </xmp:Thumbnails>
+         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
+         <xmpMM:OriginalDocumentID>uuid:65E6390686CF11DBA6E2D887CEACB407</xmpMM:OriginalDocumentID>
+         <xmpMM:DocumentID>xmp.did:5bf56af0-7a09-c043-a0de-fc348c2a4c43</xmpMM:DocumentID>
+         <xmpMM:InstanceID>xmp.iid:5bf56af0-7a09-c043-a0de-fc348c2a4c43</xmpMM:InstanceID>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:d5421cc4-2658-6c45-a00b-ba0512dfb082</stRef:instanceID>
+            <stRef:documentID>xmp.did:d5421cc4-2658-6c45-a00b-ba0512dfb082</stRef:documentID>
+            <stRef:originalDocumentID>uuid:65E6390686CF11DBA6E2D887CEACB407</stRef:originalDocumentID>
+            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7b142d01-f123-4ea9-aa31-d451c2b0aba7</stEvt:instanceID>
+                  <stEvt:when>2015-09-01T11:22:34+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CC 2015 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6171975b-c527-4541-bf53-15cb2cd2c85f</stEvt:instanceID>
+                  <stEvt:when>2016-01-15T15:42:24Z</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CC 2015 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>converted</stEvt:action>
+                  <stEvt:parameters>from application/postscript to application/vnd.adobe.illustrator</stEvt:parameters>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8ff8899e-05b1-4c4f-8411-8e323267ad92</stEvt:instanceID>
+                  <stEvt:when>2016-02-12T11:43:56Z</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CC 2015 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5bf56af0-7a09-c043-a0de-fc348c2a4c43</stEvt:instanceID>
+                  <stEvt:when>2016-03-16T17:17:26-07:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <illustrator:StartupProfile>Web</illustrator:StartupProfile>
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>32.000000</stDim:w>
+            <stDim:h>32.000000</stDim:h>
+            <stDim:unit>Pixels</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Cyan</rdf:li>
+               <rdf:li>Magenta</rdf:li>
+               <rdf:li>Yellow</rdf:li>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Default Swatch Group</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+                  <xmpG:Colorants>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Natural Blue 4</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>20</xmpG:red>
+                           <xmpG:green>115</xmpG:green>
+                           <xmpG:blue>145</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>White</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>255</xmpG:red>
+                           <xmpG:green>255</xmpG:green>
+                           <xmpG:blue>255</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Pure Black 6</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>70</xmpG:red>
+                           <xmpG:green>70</xmpG:green>
+                           <xmpG:blue>70</xmpG:blue>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpG:Colorants>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
+         <pdf:Producer>Adobe PDF library 15.00</pdf:Producer>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+	</metadata>
+<g>
+	<polygon class="st0" points="19.8,22.7 19.8,31.5 27.5,27.1 27.5,18.2 	"/>
+	<g>
+		<polygon class="st1" points="12.2,18.2 12.3,18.3 12.7,17.9 		"/>
+		<polygon class="st1" points="12.7,17.9 12.3,18.3 12.5,18.4 13.3,17.6 		"/>
+		<polygon class="st1" points="13.3,17.6 12.5,18.4 12.6,18.5 13.8,17.2 		"/>
+		<polygon class="st2" points="13.8,17.2 12.6,18.5 12.8,18.6 14.4,16.9 		"/>
+		<polygon class="st3" points="14.4,16.9 12.8,18.6 12.9,18.7 15,16.6 		"/>
+		<polygon class="st4" points="15,16.6 12.9,18.7 13.1,18.7 15.5,16.3 		"/>
+		<polygon class="st5" points="15.5,16.3 13.1,18.7 13.2,18.8 16.1,15.9 		"/>
+		<polygon class="st5" points="16.1,15.9 13.2,18.8 13.4,18.9 16.7,15.6 		"/>
+		<polygon class="st6" points="16.7,15.6 13.4,18.9 13.5,19 17.2,15.3 		"/>
+		<polygon class="st7" points="17.2,15.3 13.5,19 13.7,19.1 17.8,15 		"/>
+		<polygon class="st8" points="17.8,15 13.7,19.1 13.8,19.2 18.3,14.6 		"/>
+		<polygon class="st9" points="18.3,14.6 13.8,19.2 14,19.3 18.9,14.3 		"/>
+		<polygon class="st9" points="18.9,14.3 14,19.3 14.1,19.3 19.5,14 		"/>
+		<polygon class="st10" points="19.8,13.8 19.5,14 14.1,19.3 14.3,19.4 19.9,13.8 		"/>
+		<polygon class="st11" points="19.9,13.8 14.3,19.4 14.4,19.5 20,13.9 		"/>
+		<polygon class="st12" points="20,13.9 14.4,19.5 14.6,19.6 20.2,14 		"/>
+		<polygon class="st12" points="20.2,14 14.6,19.6 14.7,19.7 20.3,14.1 		"/>
+		<polygon class="st13" points="20.3,14.1 14.7,19.7 14.9,19.8 20.5,14.2 		"/>
+		<polygon class="st14" points="20.5,14.2 14.9,19.8 15,19.9 20.6,14.2 		"/>
+		<polygon class="st15" points="20.6,14.2 15,19.9 15.2,20 20.8,14.3 		"/>
+		<polygon class="st16" points="20.8,14.3 15.2,20 15.3,20 20.9,14.4 		"/>
+		<polygon class="st17" points="20.9,14.4 15.3,20 15.5,20.1 21.1,14.5 		"/>
+		<polygon class="st18" points="21.1,14.5 15.5,20.1 15.6,20.2 21.2,14.6 		"/>
+		<polygon class="st19" points="21.2,14.6 15.6,20.2 15.8,20.3 21.4,14.7 		"/>
+		<polygon class="st20" points="21.4,14.7 15.8,20.3 15.9,20.4 21.5,14.8 		"/>
+		<polygon class="st21" points="21.5,14.8 15.9,20.4 16.1,20.5 21.7,14.8 		"/>
+		<polygon class="st22" points="21.7,14.8 16.1,20.5 16.2,20.6 21.8,14.9 		"/>
+		<polygon class="st23" points="21.8,14.9 16.2,20.6 16.4,20.6 22,15 		"/>
+		<polygon class="st24" points="22,15 16.4,20.6 16.5,20.7 22.1,15.1 		"/>
+		<polygon class="st25" points="22.1,15.1 16.5,20.7 16.7,20.8 22.3,15.2 		"/>
+		<polygon class="st26" points="22.3,15.2 16.7,20.8 16.8,20.9 22.4,15.3 		"/>
+		<polygon class="st27" points="22.4,15.3 16.8,20.9 17,21 22.6,15.4 		"/>
+		<polygon class="st28" points="22.6,15.4 17,21 17.1,21.1 22.7,15.5 		"/>
+		<polygon class="st29" points="22.7,15.5 17.1,21.1 17.3,21.2 22.9,15.5 		"/>
+		<polygon class="st30" points="22.9,15.5 17.3,21.2 17.4,21.3 23,15.6 		"/>
+		<polygon class="st31" points="23,15.6 17.4,21.3 17.5,21.3 23.2,15.7 		"/>
+		<polygon class="st32" points="23.2,15.7 17.5,21.3 17.7,21.4 23.3,15.8 		"/>
+		<polygon class="st33" points="23.3,15.8 17.7,21.4 17.8,21.5 23.5,15.9 		"/>
+		<polygon class="st34" points="23.5,15.9 17.8,21.5 18,21.6 23.6,16 		"/>
+		<polygon class="st35" points="23.6,16 18,21.6 18.1,21.7 23.8,16.1 		"/>
+		<polygon class="st36" points="23.8,16.1 18.1,21.7 18.3,21.8 23.9,16.1 		"/>
+		<polygon class="st37" points="23.9,16.1 18.3,21.8 18.4,21.9 24.1,16.2 		"/>
+		<polygon class="st38" points="24.1,16.2 18.4,21.9 18.6,21.9 24.2,16.3 		"/>
+		<polygon class="st39" points="24.2,16.3 18.6,21.9 18.7,22 24.4,16.4 		"/>
+		<polygon class="st40" points="24.4,16.4 18.7,22 18.9,22.1 24.5,16.5 		"/>
+		<polygon class="st41" points="24.5,16.5 18.9,22.1 19,22.2 24.7,16.6 		"/>
+		<polygon class="st42" points="24.7,16.6 19,22.2 19.2,22.3 24.8,16.7 		"/>
+		<polygon class="st43" points="24.8,16.7 19.2,22.3 19.3,22.4 25,16.8 		"/>
+		<polygon class="st44" points="25,16.8 19.3,22.4 19.5,22.5 25.1,16.8 		"/>
+		<polygon class="st45" points="25.1,16.8 19.5,22.5 19.6,22.5 25.3,16.9 		"/>
+		<polygon class="st46" points="25.3,16.9 19.6,22.5 19.8,22.6 25.4,17 		"/>
+		<polygon class="st47" points="25.4,17 19.8,22.6 19.8,22.7 20.2,22.4 25.6,17.1 		"/>
+		<polygon class="st48" points="25.6,17.1 20.2,22.4 20.8,22.1 25.7,17.2 		"/>
+		<polygon class="st49" points="25.7,17.2 20.8,22.1 21.4,21.8 25.9,17.3 		"/>
+		<polygon class="st50" points="25.9,17.3 21.4,21.8 21.9,21.5 26,17.4 		"/>
+		<polygon class="st51" points="26,17.4 21.9,21.5 22.5,21.1 26.2,17.4 		"/>
+		<polygon class="st52" points="26.2,17.4 22.5,21.1 23,20.8 26.3,17.5 		"/>
+		<polygon class="st53" points="26.3,17.5 23,20.8 23.6,20.5 26.5,17.6 		"/>
+		<polygon class="st54" points="26.5,17.6 23.6,20.5 24.2,20.2 26.6,17.7 		"/>
+		<polygon class="st55" points="26.6,17.7 24.2,20.2 24.7,19.8 26.8,17.8 		"/>
+		<polygon class="st56" points="26.8,17.8 24.7,19.8 25.3,19.5 26.9,17.9 		"/>
+		<polygon class="st57" points="26.9,17.9 25.3,19.5 25.8,19.2 27.1,18 		"/>
+		<polygon class="st58" points="27.1,18 25.8,19.2 26.4,18.9 27.2,18 		"/>
+		<polygon class="st59" points="27.2,18 26.4,18.9 27,18.5 27.4,18.1 		"/>
+		<polygon class="st60" points="27,18.5 27.5,18.2 27.4,18.1 		"/>
+	</g>
+	<g>
+		<polygon class="st61" points="4.5,13.8 4.5,14 4.6,13.9 		"/>
+		<polygon class="st62" points="4.6,13.9 4.5,14 4.5,14.7 5.1,14.1 		"/>
+		<polygon class="st63" points="5.1,14.1 4.5,14.7 4.5,15.4 5.5,14.4 		"/>
+		<polygon class="st48" points="5.5,14.4 4.5,15.4 4.5,16.1 6,14.6 		"/>
+		<polygon class="st64" points="6,14.6 4.5,16.1 4.5,16.8 6.4,14.9 		"/>
+		<polygon class="st50" points="6.4,14.9 4.5,16.8 4.5,17.5 6.8,15.1 		"/>
+		<polygon class="st65" points="6.8,15.1 4.5,17.5 4.5,18.2 7.3,15.4 		"/>
+		<polygon class="st66" points="7.3,15.4 4.5,18.2 4.5,18.9 7.7,15.7 		"/>
+		<polygon class="st67" points="7.7,15.7 4.5,18.9 4.5,19.6 8.2,15.9 		"/>
+		<polygon class="st68" points="8.2,15.9 4.5,19.6 4.5,20.3 8.6,16.2 		"/>
+		<polygon class="st69" points="8.6,16.2 4.5,20.3 4.5,21 9.1,16.4 		"/>
+		<polygon class="st70" points="9.1,16.4 4.5,21 4.5,21.7 9.5,16.7 		"/>
+		<polygon class="st71" points="9.5,16.7 4.5,21.7 4.5,22.4 9.9,16.9 		"/>
+		<polygon class="st72" points="9.9,16.9 4.5,22.4 4.5,22.6 4.8,22.8 10.4,17.2 		"/>
+		<polygon class="st57" points="10.4,17.2 4.8,22.8 5.2,23.1 10.8,17.5 		"/>
+		<polygon class="st73" points="10.8,17.5 5.2,23.1 5.7,23.3 11.3,17.7 		"/>
+		<polygon class="st59" points="11.3,17.7 5.7,23.3 6.1,23.6 11.7,18 		"/>
+		<polygon class="st74" points="12.2,18.2 12.2,18.2 12.2,18.2 11.7,18 6.1,23.6 6.6,23.8 12.2,18.2 		"/>
+		<polygon class="st60" points="12.2,18.2 12.2,18.2 6.6,23.8 7,24.1 12.6,18.5 		"/>
+		<polygon class="st75" points="12.6,18.5 7,24.1 7.4,24.3 13,18.7 		"/>
+		<polygon class="st76" points="13,18.7 7.4,24.3 7.9,24.6 13.5,19 		"/>
+		<polygon class="st77" points="13.5,19 7.9,24.6 8.3,24.8 13.9,19.2 		"/>
+		<polygon class="st78" points="13.9,19.2 8.3,24.8 8.8,25.1 14.4,19.5 		"/>
+		<polygon class="st79" points="14.4,19.5 8.8,25.1 9.2,25.4 14.8,19.8 		"/>
+		<polygon class="st80" points="14.8,19.8 9.2,25.4 9.7,25.6 15.3,20 		"/>
+		<polygon class="st81" points="15.3,20 9.7,25.6 10.1,25.9 15.7,20.3 		"/>
+		<polygon class="st82" points="15.7,20.3 10.1,25.9 10.5,26.1 16.1,20.5 		"/>
+		<polygon class="st83" points="16.1,20.5 10.5,26.1 11,26.4 16.6,20.8 		"/>
+		<polygon class="st84" points="16.6,20.8 11,26.4 11.4,26.6 17,21 		"/>
+		<polygon class="st85" points="17,21 11.4,26.6 11.9,26.9 17.5,21.3 		"/>
+		<polygon class="st86" points="17.5,21.3 11.9,26.9 12.3,27.1 17.9,21.5 		"/>
+		<polygon class="st87" points="17.9,21.5 12.3,27.1 12.8,27.4 18.4,21.8 		"/>
+		<polygon class="st88" points="18.4,21.8 12.8,27.4 13.2,27.7 18.8,22.1 		"/>
+		<polygon class="st89" points="18.8,22.1 13.2,27.7 13.6,27.9 19.2,22.3 		"/>
+		<polygon class="st90" points="19.2,22.3 13.6,27.9 14.1,28.2 19.7,22.6 		"/>
+		<polygon class="st90" points="19.7,22.6 14.1,28.2 14.5,28.4 19.8,23.1 19.8,22.7 		"/>
+		<polygon class="st91" points="15,28.7 19.8,23.8 19.8,23.1 14.5,28.4 		"/>
+		<polygon class="st92" points="15.4,28.9 19.8,24.5 19.8,23.8 15,28.7 		"/>
+		<polygon class="st93" points="15.9,29.2 19.8,25.2 19.8,24.5 15.4,28.9 		"/>
+		<polygon class="st94" points="16.3,29.5 19.8,25.9 19.8,25.2 15.9,29.2 		"/>
+		<polygon class="st95" points="16.7,29.7 19.8,26.6 19.8,25.9 16.3,29.5 		"/>
+		<polygon class="st96" points="17.2,30 19.8,27.3 19.8,26.6 16.7,29.7 		"/>
+		<polygon class="st97" points="17.6,30.2 19.8,28 19.8,27.3 17.2,30 		"/>
+		<polygon class="st98" points="18.1,30.5 19.8,28.7 19.8,28 17.6,30.2 		"/>
+		<polygon class="st98" points="18.5,30.7 19.8,29.4 19.8,28.7 18.1,30.5 		"/>
+		<polygon class="st99" points="19,31 19.8,30.1 19.8,29.4 18.5,30.7 		"/>
+		<polygon class="st100" points="19.4,31.2 19.8,30.8 19.8,30.1 19,31 		"/>
+		<polygon class="st100" points="19.8,31.5 19.8,30.8 19.4,31.2 		"/>
+	</g>
+	<g>
+		<polygon class="st101" points="12.2,9.4 12.2,18.2 19.8,13.8 19.8,4.9 		"/>
+	</g>
+	<g>
+		<polygon class="st102" points="8.7,7.4 9,7.6 9.4,7.8 9.7,8 10.1,8.2 10.4,8.4 10.8,8.6 11.1,8.8 11.5,9 11.8,9.2 12.2,9.4 
+			12.2,9.4 8.3,7.2 8.3,7.2 		"/>
+		<polygon class="st103" points="4.5,4.9 4.5,5.5 4.8,5.1 		"/>
+		<polygon class="st104" points="4.8,5.1 4.5,5.5 4.5,6 5.2,5.3 		"/>
+		<polygon class="st105" points="5.2,5.3 4.5,6 4.5,6.6 5.5,5.5 		"/>
+		<polygon class="st106" points="5.5,5.5 4.5,6.6 4.5,7.1 5.9,5.7 		"/>
+		<polygon class="st107" points="5.9,5.7 4.5,7.1 4.5,7.7 6.2,6 		"/>
+		<polygon class="st108" points="6.2,6 4.5,7.7 4.5,8.2 6.6,6.2 		"/>
+		<polygon class="st109" points="6.6,6.2 4.5,8.2 4.5,8.8 6.9,6.4 		"/>
+		<polygon class="st110" points="6.9,6.4 4.5,8.8 4.5,9.4 7.3,6.6 		"/>
+		<polygon class="st111" points="7.3,6.6 4.5,9.4 4.5,9.9 7.6,6.8 		"/>
+		<polygon class="st112" points="7.6,6.8 4.5,9.9 4.5,10.5 8,7 		"/>
+		<polygon class="st113" points="8.3,7.2 8,7 4.5,10.5 4.5,11 8.3,7.2 		"/>
+		<polygon class="st114" points="8.3,7.2 4.5,11 4.5,11.6 8.7,7.4 		"/>
+		<polygon class="st115" points="8.7,7.4 4.5,11.6 4.5,12.1 9,7.6 		"/>
+		<polygon class="st116" points="9,7.6 4.5,12.1 4.5,12.7 9.4,7.8 		"/>
+		<polygon class="st117" points="9.4,7.8 4.5,12.7 4.5,13.2 9.7,8 		"/>
+		<polygon class="st118" points="9.7,8 4.5,13.2 4.5,13.8 10.1,8.2 		"/>
+		<polygon class="st119" points="10.4,8.4 10.1,8.2 4.5,13.8 4.5,13.8 4.8,14 		"/>
+		<polygon class="st120" points="10.4,8.4 4.8,14 5.2,14.2 10.8,8.6 		"/>
+		<polygon class="st121" points="10.8,8.6 5.2,14.2 5.5,14.4 11.1,8.8 		"/>
+		<polygon class="st122" points="11.1,8.8 5.5,14.4 5.9,14.6 11.5,9 		"/>
+		<polygon class="st123" points="11.5,9 5.9,14.6 6.2,14.8 11.8,9.2 		"/>
+		<polygon class="st124" points="6.2,14.8 6.6,15 12.2,9.4 12.2,9.4 11.8,9.2 		"/>
+		<polygon class="st125" points="6.9,15.2 12.2,9.9 12.2,9.4 6.6,15 		"/>
+		<polygon class="st126" points="7.3,15.4 12.2,10.5 12.2,9.9 6.9,15.2 		"/>
+		<polygon class="st127" points="7.6,15.6 12.2,11.1 12.2,10.5 7.3,15.4 		"/>
+		<polygon class="st128" points="8,15.8 12.2,11.6 12.2,11.1 7.6,15.6 		"/>
+		<polygon class="st129" points="8.3,16 12.2,12.2 12.2,11.6 8,15.8 		"/>
+		<polygon class="st130" points="8.7,16.2 12.2,12.7 12.2,12.2 8.3,16 		"/>
+		<polygon class="st131" points="9,16.4 12.2,13.3 12.2,12.7 8.7,16.2 		"/>
+		<polygon class="st132" points="9.4,16.6 12.2,13.8 12.2,13.3 9,16.4 		"/>
+		<polygon class="st133" points="9.7,16.8 12.2,14.4 12.2,13.8 9.4,16.6 		"/>
+		<polygon class="st134" points="10.1,17 12.2,14.9 12.2,14.4 9.7,16.8 		"/>
+		<polygon class="st135" points="10.4,17.2 12.2,15.5 12.2,14.9 10.1,17 		"/>
+		<polygon class="st136" points="10.8,17.4 12.2,16 12.2,15.5 10.4,17.2 		"/>
+		<polygon class="st137" points="11.1,17.6 12.2,16.6 12.2,16 10.8,17.4 		"/>
+		<polygon class="st138" points="11.5,17.8 12.2,17.1 12.2,16.6 11.1,17.6 		"/>
+		<polygon class="st139" points="11.8,18 12.2,17.7 12.2,17.1 11.5,17.8 		"/>
+		<polygon class="st140" points="12.2,18.2 12.2,17.7 11.8,18 		"/>
+	</g>
+	<g>
+		<polygon class="st141" points="4.5,4.9 4.6,5 5,4.6 		"/>
+		<polygon class="st141" points="5,4.6 4.6,5 4.8,5.1 5.6,4.3 		"/>
+		<polygon class="st141" points="5.6,4.3 4.8,5.1 4.9,5.2 6.2,4 		"/>
+		<polygon class="st142" points="6.2,4 4.9,5.2 5.1,5.3 6.7,3.6 		"/>
+		<polygon class="st142" points="6.7,3.6 5.1,5.3 5.2,5.4 7.3,3.3 		"/>
+		<polygon class="st142" points="7.3,3.3 5.2,5.4 5.4,5.5 7.9,3 		"/>
+		<polygon class="st143" points="7.9,3 5.4,5.5 5.5,5.5 8.4,2.7 		"/>
+		<polygon class="st143" points="8.4,2.7 5.5,5.5 5.7,5.6 9,2.3 		"/>
+		<polygon class="st144" points="9,2.3 5.7,5.6 5.8,5.7 9.5,2 		"/>
+		<polygon class="st145" points="9.5,2 5.8,5.7 6,5.8 10.1,1.7 		"/>
+		<polygon class="st145" points="10.1,1.7 6,5.8 6.1,5.9 10.7,1.4 		"/>
+		<polygon class="st146" points="10.7,1.4 6.1,5.9 6.3,6 11.2,1 		"/>
+		<polygon class="st146" points="11.2,1 6.3,6 6.4,6.1 11.8,0.7 		"/>
+		<polygon class="st147" points="12.1,0.5 11.8,0.7 6.4,6.1 6.6,6.2 12.2,0.5 		"/>
+		<polygon class="st148" points="12.2,0.5 6.6,6.2 6.7,6.2 12.3,0.6 		"/>
+		<polygon class="st149" points="12.3,0.6 6.7,6.2 6.9,6.3 12.5,0.7 		"/>
+		<polygon class="st149" points="12.5,0.7 6.9,6.3 7,6.4 12.6,0.8 		"/>
+		<polygon class="st150" points="12.6,0.8 7,6.4 7.2,6.5 12.8,0.9 		"/>
+		<polygon class="st151" points="12.8,0.9 7.2,6.5 7.3,6.6 12.9,1 		"/>
+		<polygon class="st152" points="12.9,1 7.3,6.6 7.5,6.7 13.1,1 		"/>
+		<polygon class="st153" points="13.1,1 7.5,6.7 7.6,6.8 13.2,1.1 		"/>
+		<polygon class="st153" points="13.2,1.1 7.6,6.8 7.8,6.8 13.4,1.2 		"/>
+		<polygon class="st103" points="13.4,1.2 7.8,6.8 7.9,6.9 13.5,1.3 		"/>
+		<polygon class="st104" points="13.5,1.3 7.9,6.9 8.1,7 13.7,1.4 		"/>
+		<polygon class="st105" points="13.7,1.4 8.1,7 8.2,7.1 13.8,1.5 		"/>
+		<polygon class="st106" points="13.8,1.5 8.2,7.1 8.4,7.2 14,1.6 		"/>
+		<polygon class="st107" points="14,1.6 8.4,7.2 8.5,7.3 14.1,1.7 		"/>
+		<polygon class="st108" points="14.1,1.7 8.5,7.3 8.7,7.4 14.3,1.7 		"/>
+		<polygon class="st109" points="14.3,1.7 8.7,7.4 8.8,7.5 14.4,1.8 		"/>
+		<polygon class="st110" points="14.4,1.8 8.8,7.5 9,7.5 14.6,1.9 		"/>
+		<polygon class="st111" points="14.6,1.9 9,7.5 9.1,7.6 14.7,2 		"/>
+		<polygon class="st112" points="14.7,2 9.1,7.6 9.3,7.7 14.9,2.1 		"/>
+		<polygon class="st113" points="14.9,2.1 9.3,7.7 9.4,7.8 15,2.2 		"/>
+		<polygon class="st114" points="15,2.2 9.4,7.8 9.6,7.9 15.2,2.3 		"/>
+		<polygon class="st115" points="15.2,2.3 9.6,7.9 9.7,8 15.3,2.3 		"/>
+		<polygon class="st116" points="15.3,2.3 9.7,8 9.9,8.1 15.5,2.4 		"/>
+		<polygon class="st118" points="15.5,2.4 9.9,8.1 10,8.1 15.6,2.5 		"/>
+		<polygon class="st119" points="15.6,2.5 10,8.1 10.2,8.2 15.8,2.6 		"/>
+		<polygon class="st120" points="15.8,2.6 10.2,8.2 10.3,8.3 15.9,2.7 		"/>
+		<polygon class="st121" points="15.9,2.7 10.3,8.3 10.5,8.4 16.1,2.8 		"/>
+		<polygon class="st154" points="16.1,2.8 10.5,8.4 10.6,8.5 16.2,2.9 		"/>
+		<polygon class="st123" points="16.2,2.9 10.6,8.5 10.8,8.6 16.4,3 		"/>
+		<polygon class="st124" points="16.4,3 10.8,8.6 10.9,8.7 16.5,3 		"/>
+		<polygon class="st125" points="16.5,3 10.9,8.7 11.1,8.7 16.7,3.1 		"/>
+		<polygon class="st126" points="16.7,3.1 11.1,8.7 11.2,8.8 16.8,3.2 		"/>
+		<polygon class="st127" points="16.8,3.2 11.2,8.8 11.4,8.9 17,3.3 		"/>
+		<polygon class="st129" points="17,3.3 11.4,8.9 11.5,9 17.1,3.4 		"/>
+		<polygon class="st130" points="17.1,3.4 11.5,9 11.7,9.1 17.3,3.5 		"/>
+		<polygon class="st131" points="17.3,3.5 11.7,9.1 11.8,9.2 17.4,3.6 		"/>
+		<polygon class="st133" points="17.4,3.6 11.8,9.2 12,9.3 17.6,3.6 		"/>
+		<polygon class="st134" points="17.6,3.6 12,9.3 12.1,9.4 17.7,3.7 		"/>
+		<polygon class="st135" points="17.7,3.7 12.1,9.4 12.2,9.4 12.6,9.2 17.9,3.8 		"/>
+		<polygon class="st137" points="17.9,3.8 12.6,9.2 13.1,8.8 18,3.9 		"/>
+		<polygon class="st138" points="18,3.9 13.1,8.8 13.7,8.5 18.2,4 		"/>
+		<polygon class="st139" points="18.2,4 13.7,8.5 14.2,8.2 18.3,4.1 		"/>
+		<polygon class="st155" points="18.3,4.1 14.2,8.2 14.8,7.9 18.5,4.2 		"/>
+		<polygon class="st156" points="18.5,4.2 14.8,7.9 15.4,7.5 18.6,4.2 		"/>
+		<polygon class="st157" points="18.6,4.2 15.4,7.5 15.9,7.2 18.8,4.3 		"/>
+		<polygon class="st158" points="18.8,4.3 15.9,7.2 16.5,6.9 18.9,4.4 		"/>
+		<polygon class="st159" points="18.9,4.4 16.5,6.9 17,6.6 19.1,4.5 		"/>
+		<polygon class="st160" points="19.1,4.5 17,6.6 17.6,6.2 19.2,4.6 		"/>
+		<polygon class="st161" points="19.2,4.6 17.6,6.2 18.2,5.9 19.4,4.7 		"/>
+		<polygon class="st162" points="19.4,4.7 18.2,5.9 18.7,5.6 19.5,4.8 		"/>
+		<polygon class="st163" points="19.5,4.8 18.7,5.6 19.3,5.3 19.7,4.9 		"/>
+		<polygon class="st164" points="19.3,5.3 19.8,4.9 19.7,4.9 		"/>
+	</g>
+	<polygon class="st165" points="20.1,5.4 19.6,4.5 12.2,8.8 4.7,4.5 4.2,5.4 11.7,9.7 11.7,18.2 12.7,18.2 12.7,9.7 	"/>
+	<polygon class="st166" points="27.8,18.7 27.3,17.8 19.8,22.1 13.2,18.2 20.1,14.2 19.6,13.3 12.2,17.6 4.7,13.3 4.2,14.2 
+		11.7,18.5 11.7,27.1 12.7,27.1 12.7,19.1 19.3,22.9 19.3,31.5 20.3,31.5 20.3,22.9 	"/>
+	<g>
+		<path class="st167" d="M19.8,32c-0.1,0-0.2,0-0.3-0.1L4.2,23.1C4.1,23,4,22.8,4,22.6V4.9c0-0.2,0.1-0.3,0.2-0.4l7.7-4.4
+			c0.2-0.1,0.3-0.1,0.5,0l7.7,4.4c0.2,0.1,0.3,0.3,0.3,0.4l0,8.6l7.4,4.3c0.2,0.1,0.3,0.3,0.3,0.4v8.8c0,0.2-0.1,0.3-0.3,0.4
+			l-7.7,4.4C20,32,19.9,32,19.8,32z M5,22.3l14.9,8.6l7.2-4.2v-8.3l-7.4-4.3c-0.2-0.1-0.3-0.3-0.3-0.4l0-8.6l-7.2-4.2L5,5.2V22.3z"
+			/>
+	</g>
+</g>
+<g>
+	<rect class="st102" width="32" height="32"/>
+</g>
+</svg>
