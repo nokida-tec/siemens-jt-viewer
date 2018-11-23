@@ -1,5 +1,4 @@
 cordova.define("com.siemens.plugin.jt2bod.jt2bod", function(require, exports, module) {
-cordova.define("com.siemens.jt2bod.jt2bod", function(require, exports, module) {
 // @<COPYRIGHT>@
 // ==================================================
 // Copyright 2015.
@@ -29,8 +28,5 @@ module.exports = {
     }
 };
 
-
-
-});
 
 });
