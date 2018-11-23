@@ -9,6 +9,42 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "com.napolitano.cordova.plugin.intent": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-camera-preview": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.nokida.jtviewer"
     }
   },
   "dependent_plugins": {}
