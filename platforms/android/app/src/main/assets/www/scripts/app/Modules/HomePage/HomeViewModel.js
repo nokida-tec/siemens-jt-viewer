@@ -35,13 +35,10 @@ define(["require", "exports", "scripts/app/Kernel", "scripts/app/Models/NonJT", 
             this._downloadFailText = Constants.Strings.DownloadFailText;
             this._localBodsDirectory = null;
             /********************** MAP STUFF **********************************/
-            this.map = null;
             this._geofenceMgr = null;
             this.totalNumOfFences = 0; //should be init as this._geofenceInitFiles.length
             this.storage = localStorage;
             // visibility of scavenger hunt button, only visible near Redmond
-            this._mapButtonVisible = false;
-            // visibility of map view
             this._isMapViewOpen = false;
             this.circles = [];
             this.visitedElementSize = "200px";
@@ -141,10 +138,6 @@ define(["require", "exports", "scripts/app/Kernel", "scripts/app/Models/NonJT", 
                 }
             }
             this.setupLocalBodsDirectory();
-            this.map = plugin.google.maps.Map.getMap();
-            this.map.addEventListener(plugin.google.maps.event.MAP_READY, function (map) {
-                console.log("google map is ready!");
-            });
             if (this.geofenceEnabled) {
                 this.setUpGeofenceMgr();
             }
@@ -192,11 +185,6 @@ define(["require", "exports", "scripts/app/Kernel", "scripts/app/Models/NonJT", 
             enumerable: true,
             configurable: true
         });
-        //opens map dialog when 'open map' button is pressed in file search mode
-        HomeViewModel.prototype.openMap = function () {
-            this.map.showDialog();
-            this.addGeofenceMarkers();
-        };
         Object.defineProperty(HomeViewModel.prototype, "visitedFiles", {
             get: function () {
                 return this._visitedFiles;
@@ -211,84 +199,6 @@ define(["require", "exports", "scripts/app/Kernel", "scripts/app/Models/NonJT", 
             enumerable: true,
             configurable: true
         });
-        //adds geofence markers of currenty unvisited files to the map
-        HomeViewModel.prototype.addGeofenceMarkers = function () {
-            this.map.clear();
-            var self = this;
-            for (var y = 0; y < this.unvisitedFiles.length; y++) {
-                var item = this._unvisitedFiles[y];
-                var coord = this._unfoundFileDict[item.name];
-                var geoLocation = new plugin.google.maps.LatLng(coord[0], coord[1]);
-                this.map.addMarker({
-                    'position': geoLocation,
-                    'title': item.name
-                }, function (marker) {
-                    marker.showInfoWindow();
-                });
-                self.map.addCircle({
-                    'center': geoLocation,
-                    'radius': 20,
-                    'strokeColor': '#16a085',
-                    'strokeWidth': 5,
-                    'fillColor': '#bcf6e9'
-                }, function (circle) {
-                    self.circles.push({
-                        key: item.name,
-                        circle: circle
-                    });
-                });
-            }
-            var onMapWatchSuccess = function (position) {
-                console.log("watchPosition success");
-                if (self._geofenceMgr) {
-                    var foundfile = self._geofenceMgr.checkIfPositionInFence(position.coords.latitude, position.coords.longitude);
-                    if (foundfile != undefined) {
-                        var gogoSound = new Media(Helper.getCordovaAssetPath() + "media/yowoo.m4a", 
-                        // success callback
-                        // success callback
-                        function () {
-                            console.log("playAudio():Audio Success");
-                        }, 
-                        // error callback
-                        // error callback
-                        function (err) {
-                            console.log("playAudio():Audio Error: " + err);
-                        });
-                        navigator.vibrate(500); //user feedback when snapshot is created
-                        gogoSound.play();
-                        // if (confirm("You've got JT-- " + foundfile.name + "\nClick OK to view it.")) {
-                        self.selectGeofencedFile(foundfile);
-                    }
-                    var userLocation = new plugin.google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-                    if (self._currentPoMarker) {
-                        self._currentPoMarker.setPosition(userLocation);
-                    }
-                }
-            };
-            var onSuccess = function (position) {
-                var userLocation = new plugin.google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-                self.map.animateCamera({
-                    'target': userLocation,
-                    'tilt': 60,
-                    'zoom': 18,
-                    'bearing': 140
-                });
-                self.map.addMarker({
-                    'position': userLocation,
-                    'title': "Me"
-                }, function (marker) {
-                    self._currentPoMarker = marker;
-                    marker.showInfoWindow();
-                });
-            };
-            function onError(error) {
-                alert('Error on getting location, code: ' + error.code + '\n' +
-                    'message: ' + error.message + '\n');
-            }
-            ;
-            navigator.geolocation.getCurrentPosition(onSuccess, onError, { enableHighAccuracy: true });
-            navigator.geolocation.watchPosition(onMapWatchSuccess, onError, { enableHighAccuracy: true });
-        };
         //after visiting an element adds element to visited files and removes it from unvisited, updates local storage & removes marker from map
         HomeViewModel.prototype.updateData = function (newItem) {
             //var newJTItem = new NonJT.FileItem(newItem.id, "samples/" + newItem.id.split(' ').join(''));
@@ -312,7 +222,6 @@ define(["require", "exports", "scripts/app/Kernel", "scripts/app/Models/NonJT", 
         //toggles between map view and home page view
         HomeViewModel.prototype.toggleMapView = function () {
             //window.localStorage.clear();
-            var mapView = $("#outerMapView");
             var homeView = $("#homePanel");
             //animates to geofence accept page or map view page 
             if (!this.geofenceEnabled) {
@@ -321,14 +230,11 @@ define(["require", "exports", "scripts/app/Kernel", "scripts/app/Models/NonJT", 
                 this.storage.setItem("geofenceEnabled", "true");
             }
             else {
-                mapView.css('opacity', '0');
-                mapView.fadeTo("fast", 1);
                 this.storage.setItem("geofenceEnabled", "false");
             }
             /*
             else {
                 var self = this;
-                mapView.fadeTo('fast', 0);
                 if (!this.geofenceEnabled) {
                     $("#geofenceAcceptionPage").fadeTo('fast', 0);
                 }
@@ -342,7 +248,6 @@ define(["require", "exports", "scripts/app/Kernel", "scripts/app/Models/NonJT", 
             alert("Congratulations! You've captured " + fileItem.name);
             this.updateData(fileItem);
             this.selectSample(fileItem);
-            this.map.closeDialog();
         };
         //calculates what size visited item elements should be based on width of screen
         HomeViewModel.prototype.determineVisitedElementSize = function () {
@@ -503,18 +408,6 @@ define(["require", "exports", "scripts/app/Kernel", "scripts/app/Models/NonJT", 
         Object.defineProperty(HomeViewModel.prototype, "isFilePickerOpen", {
             get: function () {
                 return this._isFilePickerOpen;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(HomeViewModel.prototype, "mapButtonVisible", {
-            get: function () {
-                return this._mapButtonVisible;
-            },
-            set: function (value) {
-                if (value !== null && value != this._mapButtonVisible) {
-                    this._mapButtonVisible = value;
-                }
             },
             enumerable: true,
             configurable: true
