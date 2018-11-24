@@ -1,6 +1,8 @@
 # Non-project-specific build files:
 build.xml
 local.properties
+.npmignore
+package-lock.json
 /gradlew
 /gradlew.bat
 /gradle
@@ -12,5 +14,8 @@ gen
 out
 # Gradle builds
 **/.gradle
+**/.idea
 **/build
+**/*.iml
 /build
+/node_modules
