@@ -1,0 +1,732 @@
+{"properties":[
+	{"psId":16,  "values":{
+		"Name::":"a_259d_machine_final",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"a_259d_machine_final"
+	}},
+	{"psId":31,  "values":{
+		"Name::":"Cylinder017",
+		"Translation Date::":"2016 5 10 8 53 37",
+		"BSphereCoverageFractionMax":"0.47021",
+		"_nTrisLODs":"4::840::336::138::59",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Cylinder017"
+	}},
+	{"psId":69,  "values":{
+		"Name::":"Finished_Counterweight_Option",
+		"Translation Date::":"2016 5 10 8 53 37",
+		"BSphereCoverageFractionMax":"0.264883",
+		"_nTrisLODs":"3::280::128::52",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Counterweight_Option"
+	}},
+	{"psId":104,  "values":{
+		"Name::":"Finished_Electrical_Code",
+		"Translation Date::":"2016 5 10 8 53 37",
+		"BSphereCoverageFractionMax":"0.219939",
+		"_nTrisLODs":"5::1180::522::227::99::23",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Electrical_Code"
+	}},
+	{"psId":145,  "values":{
+		"Name::":"Left_Hose_Inner_Morpher",
+		"Translation Date::":"2016 5 10 8 53 37",
+		"BSphereCoverageFractionMax":"0.0674823",
+		"_nTrisLODs":"3::132::62::23",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Left_Hose_Inner_Morpher"
+	}},
+	{"psId":180,  "values":{
+		"Name::":"Left_Hose_Middle_Morpher",
+		"Translation Date::":"2016 5 10 8 53 37",
+		"BSphereCoverageFractionMax":"0.0702864",
+		"_nTrisLODs":"3::176::70::25",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Left_Hose_Middle_Morpher"
+	}},
+	{"psId":215,  "values":{
+		"Name::":"Left_Hose_Outer_Morpher",
+		"Translation Date::":"2016 5 10 8 53 37",
+		"BSphereCoverageFractionMax":"0.0865541",
+		"_nTrisLODs":"3::132::51::18",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Left_Hose_Outer_Morpher"
+	}},
+	{"psId":250,  "values":{
+		"Name::":"Object011",
+		"Translation Date::":"2016 5 10 8 53 37",
+		"BSphereCoverageFractionMax":"0.522639",
+		"_nTrisLODs":"5::880::373::159::76::16",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Object011"
+	}},
+	{"psId":291,  "values":{
+		"Name::":"Object012",
+		"Translation Date::":"2016 5 10 8 53 38",
+		"BSphereCoverageFractionMax":"0.033327",
+		"_nTrisLODs":"4::3092::1292::566::237",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Object012"
+	}},
+	{"psId":329,  "values":{
+		"Name::":"Object015",
+		"Translation Date::":"2016 5 10 8 53 38",
+		"BSphereCoverageFractionMax":"0.266517",
+		"_nTrisLODs":"4::396::158::61::24",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Object015"
+	}},
+	{"psId":367,  "values":{
+		"Name::":"Right_Hose_Inner_Morpher",
+		"Translation Date::":"2016 5 10 8 53 38",
+		"BSphereCoverageFractionMax":"0.0665735",
+		"_nTrisLODs":"3::132::52::18",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Right_Hose_Inner_Morpher"
+	}},
+	{"psId":402,  "values":{
+		"Name::":"Right_Hose_Outer_Morpher",
+		"Translation Date::":"2016 5 10 8 53 38",
+		"BSphereCoverageFractionMax":"0.107763",
+		"_nTrisLODs":"3::132::52::18",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Right_Hose_Outer_Morpher"
+	}},
+	{"psId":437,  "values":{
+		"Name::":"Master_Control",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"Master_Control"
+	}},
+	{"psId":453,  "values":{
+		"Name::":"Finished_Adapters",
+		"Translation Date::":"2016 5 10 8 53 38",
+		"BSphereCoverageFractionMax":"0.0150611",
+		"_nTrisLODs":"4::480::192::73::28",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Adapters"
+	}},
+	{"psId":491,  "values":{
+		"Name::":"Finished_Exhaust",
+		"Translation Date::":"2016 5 10 8 53 38",
+		"BSphereCoverageFractionMax":"0.140277",
+		"_nTrisLODs":"3::140::53::23",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Exhaust"
+	}},
+	{"psId":526,  "values":{
+		"Name::":"Finished_Frame",
+		"Translation Date::":"2016 5 10 8 53 38",
+		"BSphereCoverageFractionMax":"1.29093",
+		"_nTrisLODs":"5::11942::4775::1860::725::134",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Frame"
+	}},
+	{"psId":567,  "values":{
+		"Name::":"Finished_Hoses",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.0674566",
+		"_nTrisLODs":"4::720::324::132::53",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Hoses"
+	}},
+	{"psId":605,  "values":{
+		"Name::":"Finished_Lines",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.0867876",
+		"_nTrisLODs":"4::604::241::93::39",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Lines"
+	}},
+	{"psId":643,  "values":{
+		"Name::":"Finished_Medium_Black_Static",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.0958608",
+		"_nTrisLODs":"3::120::44::16",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Medium_Black_Static"
+	}},
+	{"psId":678,  "values":{
+		"Name::":"Finished_Solid_Lines",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.0201205",
+		"_nTrisLODs":"2::224::88",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Solid_Lines"
+	}},
+	{"psId":710,  "values":{
+		"Name::":"Finished_TailLight_Housing",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.0228528",
+		"_nTrisLODs":"2::88::35",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_TailLight_Housing"
+	}},
+	{"psId":742,  "values":{
+		"Name::":"Finished_TailLight_Plastic",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.0160361",
+		"_nTrisLODs":"1::76",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_TailLight_Plastic"
+	}},
+	{"psId":771,  "values":{
+		"Name::":"Finished_Track_Bolts",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.0183648",
+		"_nTrisLODs":"4::328::142::53::20",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Track_Bolts"
+	}},
+	{"psId":809,  "values":{
+		"Name::":"a_1905386_dqre01",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.38288",
+		"_nTrisLODs":"1::72",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_1905386_dqre01"
+	}},
+	{"psId":841,  "values":{
+		"Name::":"a_1905386_dqre01 #1",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.38288",
+		"_nTrisLODs":"1::72",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_1905386_dqre01 #1"
+	}},
+	{"psId":871,  "values":{
+		"Name::":"a_2394990_jare01",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.504659",
+		"_nTrisLODs":"2::34::10",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_2394990_jare01"
+	}},
+	{"psId":904,  "values":{
+		"Name::":"a_2394990_jare01 #1",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.504659",
+		"_nTrisLODs":"2::34::10",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_2394990_jare01 #1"
+	}},
+	{"psId":937,  "values":{
+		"Name::":"a_2396986_jare01",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.479823",
+		"_nTrisLODs":"3::10::10::10",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_2396986_jare01"
+	}},
+	{"psId":973,  "values":{
+		"Name::":"a_2634836",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.601262",
+		"_nTrisLODs":"2::34::10",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_2634836"
+	}},
+	{"psId":1006,  "values":{
+		"Name::":"a_2634836 #1",
+		"Translation Date::":"2016 5 10 8 53 39",
+		"BSphereCoverageFractionMax":"0.601262",
+		"_nTrisLODs":"2::34::10",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_2634836 #1"
+	}},
+	{"psId":1039,  "values":{
+		"Name::":"a_2634836 #2",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.601262",
+		"_nTrisLODs":"2::34::10",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_2634836 #2"
+	}},
+	{"psId":1072,  "values":{
+		"Name::":"a_2634836 #3",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.601262",
+		"_nTrisLODs":"2::34::10",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_2634836 #3"
+	}},
+	{"psId":1105,  "values":{
+		"Name::":"a_3190710",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.249137",
+		"_nTrisLODs":"2::64::28",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_3190710"
+	}},
+	{"psId":1138,  "values":{
+		"Name::":"a_3456024",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.000814792",
+		"_nTrisLODs":"2::76::28",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_3456024"
+	}},
+	{"psId":1173,  "values":{
+		"Name::":"a_3456024 #1",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.000814792",
+		"_nTrisLODs":"2::76::28",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_3456024 #1"
+	}},
+	{"psId":1206,  "values":{
+		"Name::":"a_3456028",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.242037",
+		"_nTrisLODs":"3::16::16::16",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_3456028"
+	}},
+	{"psId":1242,  "values":{
+		"Name::":"a_3456028 #1",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.242037",
+		"_nTrisLODs":"3::16::16::16",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_3456028 #1"
+	}},
+	{"psId":1278,  "values":{
+		"Name::":"Cab_Lift_Access_Control",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"Cab_Lift_Access_Control"
+	}},
+	{"psId":1294,  "values":{
+		"Name::":"Cab_Films",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.0174913",
+		"_nTrisLODs":"4::592::180::79::38",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Cab_Films"
+	}},
+	{"psId":1333,  "values":{
+		"Name::":"Finished_Advanced_Display",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.293166",
+		"_nTrisLODs":"2::66::32",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Advanced_Display"
+	}},
+	{"psId":1368,  "values":{
+		"Name::":"Finished_Chair",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.43807",
+		"_nTrisLODs":"5::540::231::108::52::15",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Chair"
+	}},
+	{"psId":1409,  "values":{
+		"Name::":"Finished_Glass",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.530928",
+		"_nTrisLODs":"3::320::128::46",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Glass"
+	}},
+	{"psId":1444,  "values":{
+		"Name::":"Finished_Interior_Dark_Gray",
+		"Translation Date::":"2016 5 10 8 53 40",
+		"BSphereCoverageFractionMax":"0.525029",
+		"_nTrisLODs":"5::4063::1682::706::313::68",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Interior_Dark_Gray"
+	}},
+	{"psId":1485,  "values":{
+		"Name::":"Finished_Interior_Gray_Dawn",
+		"Translation Date::":"2016 5 10 8 53 41",
+		"BSphereCoverageFractionMax":"0.270666",
+		"_nTrisLODs":"5::1094::432::168::65::13",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Interior_Gray_Dawn"
+	}},
+	{"psId":1526,  "values":{
+		"Name::":"Finished_Rops",
+		"Translation Date::":"2016 5 10 8 53 41",
+		"BSphereCoverageFractionMax":"0.592487",
+		"_nTrisLODs":"5::11674::4819::1850::746::150",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Rops"
+	}},
+	{"psId":1567,  "values":{
+		"Name::":"Finished_Seals",
+		"Translation Date::":"2016 5 10 8 53 41",
+		"BSphereCoverageFractionMax":"0.0773667",
+		"_nTrisLODs":"5::1268::506::187::86::19",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Seals"
+	}},
+	{"psId":1608,  "values":{
+		"Name::":"Finished_Window_Latches",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.0305441",
+		"_nTrisLODs":"2::299::119",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Window_Latches"
+	}},
+	{"psId":1640,  "values":{
+		"Name::":"Cab_Door_Control",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"Cab_Door_Control"
+	}},
+	{"psId":1656,  "values":{
+		"Name::":"Finished_Door_Hinges",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.0747138",
+		"_nTrisLODs":"2::76::30",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Door_Hinges"
+	}},
+	{"psId":1688,  "values":{
+		"Name::":"Finished_Front_Door_Glass",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.495148",
+		"_nTrisLODs":"4::220::92::48::24",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Front_Door_Glass"
+	}},
+	{"psId":1726,  "values":{
+		"Name::":"Finished_Safety_Door_handles",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.0298853",
+		"_nTrisLODs":"3::200::80::27",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Safety_Door_handles"
+	}},
+	{"psId":1761,  "values":{
+		"Name::":"Finished_Safety_Door_handles_Black",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.0168929",
+		"_nTrisLODs":"2::254::104",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Safety_Door_handles_Black"
+	}},
+	{"psId":1793,  "values":{
+		"Name::":"Finished_Windshield_Wiper_Door_handle",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.065474",
+		"_nTrisLODs":"5::1438::575::199::71::13",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Windshield_Wiper_Door_handle"
+	}},
+	{"psId":1834,  "values":{
+		"Name::":"Finished_Windshield_Wiper_Rubber",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.0276352",
+		"_nTrisLODs":"3::20::20::20",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Windshield_Wiper_Rubber"
+	}},
+	{"psId":1869,  "values":{
+		"Name::":"Finished_Wiper_Motor_Door_Latch",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.104935",
+		"_nTrisLODs":"2::88::35",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Wiper_Motor_Door_Latch"
+	}},
+	{"psId":1901,  "values":{
+		"Name::":"Object009",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.0475375",
+		"_nTrisLODs":"4::280::112::41::18",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Object009"
+	}},
+	{"psId":1939,  "values":{
+		"Name::":"Rear_Door_Control",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"Rear_Door_Control"
+	}},
+	{"psId":1955,  "values":{
+		"Name::":"Finished_Rear_Door",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.675442",
+		"_nTrisLODs":"5::570::228::96::42::10",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Rear_Door"
+	}},
+	{"psId":1996,  "values":{
+		"Name::":"Finished_Rear_Door_Grate001",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.653996",
+		"_nTrisLODs":"3::136::56::24",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Rear_Door_Grate001"
+	}},
+	{"psId":2031,  "values":{
+		"Name::":"a_3456020",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.537109",
+		"_nTrisLODs":"3::10::10::10",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_3456020"
+	}},
+	{"psId":2067,  "values":{
+		"Name::":"Rear_Lift_Arm_Bar_Pivot",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"Rear_Lift_Arm_Bar_Pivot"
+	}},
+	{"psId":2083,  "values":{
+		"Name::":"Finished_lift_Bar",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.274405",
+		"_nTrisLODs":"3::368::147::58",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_lift_Bar"
+	}},
+	{"psId":2118,  "values":{
+		"Name::":"Lift_Arm_Rear_Control",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"Lift_Arm_Rear_Control"
+	}},
+	{"psId":2134,  "values":{
+		"Name::":"Finished_Adapter_Lift_Linkage",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.173785",
+		"_nTrisLODs":"4::286::120::55::27",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Adapter_Lift_Linkage"
+	}},
+	{"psId":2172,  "values":{
+		"Name::":"Finished_Lift_Arm",
+		"Translation Date::":"2016 5 10 8 53 42",
+		"BSphereCoverageFractionMax":"0.448848",
+		"_nTrisLODs":"4::6932::2772::966::383",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Lift_Arm"
+	}},
+	{"psId":2210,  "values":{
+		"Name::":"a_2957317_jare003",
+		"Translation Date::":"2016 5 10 8 53 43",
+		"BSphereCoverageFractionMax":"0.0371487",
+		"_nTrisLODs":"2::68::20",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_2957317_jare003"
+	}},
+	{"psId":2243,  "values":{
+		"Name::":"a_3456026",
+		"Translation Date::":"2016 5 10 8 53 43",
+		"BSphereCoverageFractionMax":"0.541659",
+		"_nTrisLODs":"2::51::19",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"a_3456026"
+	}},
+	{"psId":2276,  "values":{
+		"Name::":"WT_Tilt_Control",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"WT_Tilt_Control"
+	}},
+	{"psId":2292,  "values":{
+		"Name::":"Object007",
+		"Translation Date::":"2016 5 10 8 53 43",
+		"BSphereCoverageFractionMax":"0.0295209",
+		"_nTrisLODs":"4::388::155::61::26",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Object007"
+	}},
+	{"psId":2330,  "values":{
+		"Name::":"Bucket_Master_Ctrl",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"Bucket_Master_Ctrl"
+	}},
+	{"psId":2346,  "values":{
+		"Name::":"Finished_Bucket_Base_4266557",
+		"Translation Date::":"2016 5 10 8 53 43",
+		"BSphereCoverageFractionMax":"1.36945",
+		"_nTrisLODs":"5::3212::1284::480::196::34",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Bucket_Base_4266557"
+	}},
+	{"psId":2387,  "values":{
+		"Name::":"Bucket_Open_Ctrl",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"Bucket_Open_Ctrl"
+	}},
+	{"psId":2403,  "values":{
+		"Name::":"Finished_Bucket_Front_4266557",
+		"Translation Date::":"2016 5 10 8 53 43",
+		"BSphereCoverageFractionMax":"0.716684",
+		"_nTrisLODs":"4::1836::734::260::101",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Bucket_Front_4266557"
+	}},
+	{"psId":2441,  "values":{
+		"Name::":"Object008",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"Object008"
+	}},
+	{"psId":2457,  "values":{
+		"Name::":"Object008_-_mesh",
+		"Translation Date::":"2016 5 10 8 53 43",
+		"BSphereCoverageFractionMax":"0.679869",
+		"_nTrisLODs":"5::6716::2737::1223::535::130",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Object008_-_mesh"
+	}},
+	{"psId":2498,  "values":{
+		"Name::":"Object010",
+		"Translation Date::":"2016 5 10 8 53 44",
+		"BSphereCoverageFractionMax":"0.0105437",
+		"_nTrisLODs":"1::164",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Object010"
+	}},
+	{"psId":2541,  "values":{
+		"Name::":"Top_Service_Door_Control",
+		"JT_PMI_CONTENT_HINT":"none",
+		"Name::":"Top_Service_Door_Control"
+	}},
+	{"psId":2557,  "values":{
+		"Name::":"Finished_Top_Door",
+		"Translation Date::":"2016 5 10 8 53 44",
+		"BSphereCoverageFractionMax":"0.619924",
+		"_nTrisLODs":"4::270::107::42::24",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Top_Door"
+	}},
+	{"psId":2595,  "values":{
+		"Name::":"Finished_Top_Door_Grate001",
+		"Translation Date::":"2016 5 10 8 53 44",
+		"BSphereCoverageFractionMax":"0.626912",
+		"_nTrisLODs":"3::168::72::28",
+		"JT_PROP_ORIGINATING_BREPTYPE":"None",
+		"JT_PMI_CONTENT_HINT":"none",
+		"AdvCompressLODLevel::":"0.000000 0.000000 0.000000 ",
+		"Name::":"Finished_Top_Door_Grate001"
+	}}
+]}

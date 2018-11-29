@@ -1,0 +1,5 @@
+
+{"title":"3.acme_blade_pmi", "psId":16, "units":2, "bboxMin":[-70,-15,-46.7522], "bboxMax":[20,15,143.415], "hasPMI":true, "children": [
+	{"title":"3.acme_blade_pmi_354", "fileRef":"0.bod", "psId":294, "units":2, "bboxMin":[-70,-15,-46.7522], "bboxMax":[20,15,143.415]},
+	{"title":"3.acme_blade_pmi_369", "fileRef":"1.bod", "psId":494, "units":2, "bboxMin":[-42.4078,-6.97592,143.415], "bboxMax":[10.7661,7.61523,143.415]}
+]}

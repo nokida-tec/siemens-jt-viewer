@@ -1,0 +1,4 @@
+
+{"title":"1.simple_block", "psId":16, "units":2, "bboxMin":[0,0,0], "bboxMax":[36,36,13], "hasPMI":true, "hasLocalMaterials":true, "children": [
+	{"title":"1.simple_block_21744", "fileRef":"1.simple_block_21744.bod", "psId":292, "units":2, "bboxMin":[0,0,0], "bboxMax":[36,36,13]}
+]}

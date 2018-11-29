@@ -1,0 +1,5 @@
+
+{"title":"Control_Cabinet_assm_LW", "psId":16, "units":5, "bboxMin":[-0.07725,-0.0762293,-0.003], "bboxMax":[0.07725,0.0759717,0.0641431], "hasPMI":true, "children": [
+	{"title":"controlcabinetbase", "fileRef":"0.bod", "psId":47, "units":5, "bboxMin":[-0.075,-0.075,-0.003], "bboxMax":[0.075,0.075,0.0623995]},
+	{"title":"controlcabinetlid", "fileRef":"1.bod", "psId":149, "units":5, "bboxMin":[-0.07725,-0.0762293,0.0306878], "bboxMax":[0.07725,0.0759717,0.0641431]}
+]}

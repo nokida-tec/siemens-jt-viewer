@@ -1,0 +1,4 @@
+
+{"title":"4.bracket", "psId":16, "units":2, "bboxMin":[0,0,0], "bboxMax":[60,36,15], "hasPMI":true, "hasLocalMaterials":true, "children": [
+	{"title":"4.bracket_22618", "fileRef":"4.bracket_22618.bod", "psId":292, "units":2, "bboxMin":[0,0,0], "bboxMax":[60,36,15]}
+]}

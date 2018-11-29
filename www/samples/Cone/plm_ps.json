@@ -1,0 +1,9 @@
+
+{"title":"254880P01_01_B", "psId":16, "units":7, "bboxMin":[218.002,-17.5752,-17.5755], "bboxMax":[238.008,17.5752,17.5755], "hasPMI":true, "children": [
+	{"title":"254880P01_01_B_16994", "fileRef":"0.bod", "psId":288, "units":7, "bboxMin":[218.002,-17.5752,-17.5742], "bboxMax":[238.008,17.5752,17.5755]},
+	{"title":"Section Geometry", "psId":3381, "units":7, "bboxMin":[218.002,-8.95981e-014,-17.5755], "bboxMax":[238.008,1.75289e-013,17.5755], "children": [
+		{"title":"PMI_SEC_A-A", "psId":3393, "units":7, "bboxMin":[218.002,-8.95981e-014,-17.5755], "bboxMax":[238.008,1.75289e-013,17.5755], "children": [
+			{"title":"SectionCurvesOf_PMI_SEC_A-A", "fileRef":"1.bod", "psId":3405, "units":5, "bboxMin":[218.002,-8.95981e-014,-17.5755], "bboxMax":[238.008,1.75289e-013,17.5755]}
+		]}
+	]}
+]}

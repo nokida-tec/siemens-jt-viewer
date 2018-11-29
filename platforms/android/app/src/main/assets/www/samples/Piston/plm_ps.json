@@ -1,0 +1,4 @@
+
+{"title":"5.piston", "psId":16, "units":2, "bboxMin":[-81.025,-31.025,-45.3], "bboxMax":[-18.975,31.025,0], "hasPMI":true, "hasLocalMaterials":true, "children": [
+	{"title":"5.piston_1053", "fileRef":"5.piston_1053.bod", "psId":292, "units":2, "bboxMin":[-81.025,-31.025,-45.3], "bboxMax":[-18.975,31.025,0]}
+]}

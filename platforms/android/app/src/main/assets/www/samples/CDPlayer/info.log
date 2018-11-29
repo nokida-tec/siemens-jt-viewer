@@ -1,0 +1,248 @@
+jt2bod.exe CDPlayer_assm_LW.jt 
+Wed Feb 08 14:22:53 2017
+
+Convert:CDPlayer_assm_LW.jt
+    0.763000 sec to read the JT file...
+             JT FILE VERSION: 9.5    BOD FILE VERSION: 8.120170206
+_writePart: BodyBottom:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:1411
+_writePart: BodyTop:  numJtkShapes:3
+    TRISTRIPSET shape:0  numSets:6
+    TRISTRIPSET shape:1  numSets:522
+    TRISTRIPSET shape:2  numSets:2911
+_writePart: LH-SpeakerCover:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:445
+_writePart: RH-SpeakerCover:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:451
+_writePart: Display:  numJtkShapes:3
+    TRISTRIPSET shape:0  numSets:18
+    TRISTRIPSET shape:1  numSets:416
+    TRISTRIPSET shape:2  numSets:240
+_writePart: Display_Cover:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:62
+    TRISTRIPSET shape:1  numSets:169
+_writePart: CD:  numJtkShapes:3
+    TRISTRIPSET shape:0  numSets:2
+    TRISTRIPSET shape:1  numSets:2
+    TRISTRIPSET shape:2  numSets:2
+_writePart: Speaker Housing:  numJtkShapes:3
+    TRISTRIPSET shape:0  numSets:153
+    TRISTRIPSET shape:1  numSets:3
+    TRISTRIPSET shape:2  numSets:3
+_writePart: Speaker face:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:135
+_writePart: Wire Clip:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:16
+_writePart: Rivet:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:23
+_writePart: MountingPlate:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:208
+_writePart: Rubber Mount:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:153
+_writePart: Motor Shaft:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:31
+_writePart: CD Spinner:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:1
+    TRISTRIPSET shape:1  numSets:105
+_writePart: CD Reader Cover:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:371
+_writePart: DriveMotor:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:177
+_writePart: DriveMotorShaft:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:32
+_writePart: PlateBushing:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:38
+_writePart: DriveMotorSpindle:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:8
+_writePart: SecondarySpindle:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:31
+_writePart: Sec-Spaces:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:4
+_writePart: SecSpindle:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:44
+    TRISTRIPSET shape:1  numSets:4
+_writePart: ShaftSpindle:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:31
+_writePart: DriveShaft:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:68
+_writePart: DriveSpindle:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:48
+_writePart: HoldScrew:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:63
+_writePart: HeadSlider:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:100
+    TRISTRIPSET shape:1  numSets:1
+_writePart: Motor Screw:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:74
+_writePart: HeadMountPlate:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:63
+_writePart: HeadTrackBracket:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:22
+_writePart: HeadCenter:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:17
+_writePart: HeadEye:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:53
+_writePart: HeadCover:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:84
+_writePart: Brace:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:122
+_writePart: PStrip:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:159
+_writePart: Strap:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:18
+_writePart: Fastener:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:74
+_writePart: RibbonPlate:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:10
+    TRISTRIPSET shape:1  numSets:3
+_writePart: HeadPCB:  numJtkShapes:3
+    TRISTRIPSET shape:0  numSets:35
+    TRISTRIPSET shape:1  numSets:31
+    TRISTRIPSET shape:2  numSets:16
+_writePart: 10PinConnector:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:23
+    TRISTRIPSET shape:1  numSets:309
+_writePart: CapBody:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:274
+_writePart: Res4:  numJtkShapes:5
+    TRISTRIPSET shape:0  numSets:26
+    TRISTRIPSET shape:1  numSets:1
+    TRISTRIPSET shape:2  numSets:3
+    TRISTRIPSET shape:3  numSets:1
+    TRISTRIPSET shape:4  numSets:22
+_writePart: Res3:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:68
+_writePart: Res1:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:69
+_writePart: Handle:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:229
+_writePart: Ejector Door:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:408
+_writePart: Tuner Base Frame:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:4
+    TRISTRIPSET shape:1  numSets:159
+_writePart: Tuner_1:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:315
+_writePart: Tuner Stem:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:19
+_writePart: Tuner Pulley:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:14
+_writePart: Volume Adjustment:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:252
+_writePart: Tuner Circuit Board:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:77
+_writePart: Tuner Component:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:9
+_writePart: Volume Component On CB:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:13
+_writePart: PowerPlug:  numJtkShapes:3
+    TRISTRIPSET shape:0  numSets:2
+    TRISTRIPSET shape:1  numSets:303
+    TRISTRIPSET shape:2  numSets:31
+_writePart: DC_PCB:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:30
+_writePart: Res5:  numJtkShapes:3
+    TRISTRIPSET shape:0  numSets:16
+    TRISTRIPSET shape:1  numSets:36
+    TRISTRIPSET shape:2  numSets:17
+_writePart: Res2:  numJtkShapes:5
+    TRISTRIPSET shape:0  numSets:26
+    TRISTRIPSET shape:1  numSets:1
+    TRISTRIPSET shape:2  numSets:3
+    TRISTRIPSET shape:3  numSets:1
+    TRISTRIPSET shape:4  numSets:22
+_writePart: Screw:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:20
+    TRISTRIPSET shape:1  numSets:56
+_writePart: WireClip:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:1
+    TRISTRIPSET shape:1  numSets:36
+_writePart: BatteryDoor:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:131
+_writePart: Foot:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:49
+_writePart: On_Off_PCB:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:33
+_writePart: Screw1:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:20
+    TRISTRIPSET shape:1  numSets:56
+_writePart: SwitchControl:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:157
+_writePart: Switch1:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:220
+_writePart: Switch2:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:271
+_writePart: Display_PCB:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:47
+_writePart: ButtonSwitch:  numJtkShapes:3
+    TRISTRIPSET shape:0  numSets:4
+    TRISTRIPSET shape:1  numSets:31
+    TRISTRIPSET shape:2  numSets:5
+_writePart: M6x15 Screw:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:1
+    TRISTRIPSET shape:1  numSets:90
+_writePart: CDcenter:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:4
+_writePart: InsideRH-Button:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:98
+_writePart: OutsideRH-Button:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:73
+_writePart: InsideLH-Button:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:74
+_writePart: OutsideLH-Button:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:65
+_writePart: TransformerFrame:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:587
+_writePart: Packing:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:6
+    TRISTRIPSET shape:1  numSets:4
+_writePart: Windings:  numJtkShapes:3
+    TRISTRIPSET shape:0  numSets:16
+    TRISTRIPSET shape:1  numSets:59
+    TRISTRIPSET shape:2  numSets:177
+_writePart: Top Bracket:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:34
+_writePart: Washer:  numJtkShapes:1
+    TRISTRIPSET shape:0  numSets:4
+_writePart: Screw2:  numJtkShapes:2
+    TRISTRIPSET shape:0  numSets:20
+    TRISTRIPSET shape:1  numSets:56
+    1.412000 sec to map structure and write BOD geometry...
+    0.037000 sec to write PMI structure and PMI BOD...
+_writeMaterials:  numMaterials:30
+d:7a7cc4ff  e:000000ff  sp:7072baff  sh:00000000
+d:65f073ff  e:000000ff  sp:98eba0ff  sh:00000000
+d:333333ff  e:0c0c0cff  sp:3e3e3eff  sh:00000000
+d:333333bf  e:0c0c0cbf  sp:ffffffbf  sh:00000000
+d:d1b58cff  e:000000ff  sp:d1b58cff  sh:00000000
+d:ffffffff  e:000000ff  sp:ffffffff  sh:00000000
+d:19191998  e:00000098  sp:ffffff98  sh:00000000
+d:bfbfbfff  e:000000ff  sp:c8c8c8ff  sh:00000000
+d:c7901cff  e:000000ff  sp:d7ad51ff  sh:00000000
+d:ddb358ff  e:000000ff  sp:eac56fff  sh:00000000
+d:b21e1eff  e:000000ff  sp:281919ff  sh:00000000
+d:c0c0c0ff  e:000000ff  sp:cdcdcdff  sh:00000000
+d:afc4ddff  e:000000ff  sp:b3c2e5ff  sh:00000000
+d:9300d3ff  e:000000ff  sp:9628c6ff  sh:00000000
+d:999999ff  e:000000ff  sp:7f7f7fff  sh:00000000
+d:b28119ff  e:000000ff  sp:2d2b25ff  sh:00000000
+d:bcb56bff  e:000000ff  sp:e4e1c3ff  sh:00000000
+d:c6876bff  e:000000ff  sp:cb896bff  sh:00000000
+d:0000ff4c  e:0000004c  sp:dbdbff4c  sh:00000000
+d:1ebf1eff  e:000000ff  sp:319831ff  sh:00000000
+d:0000ffff  e:000000ff  sp:9999ffff  sh:00000000
+d:e5e500ff  e:000000ff  sp:e5e500ff  sh:00000000
+d:e50000ff  e:000000ff  sp:f49999ff  sh:00000000
+d:ccccccff  e:000000ff  sp:8e8e8eff  sh:00000000
+d:0000ccff  e:000000ff  sp:000000ff  sh:00000000
+d:007f7fff  e:000000ff  sp:298787ff  sh:00000000
+d:1ea51eff  e:000000ff  sp:192819ff  sh:00000000
+d:bbbbbbff  e:000000ff  sp:ffffffff  sh:00000000
+d:333333ff  e:000000ff  sp:ffffffff  sh:00000000
+d:66b2ffff  e:000000ff  sp:ffffffff  sh:00000000
+    0.052000 sec to write the product structure file...
+    =============================================
+    parts:82    materials:30    buffers:82
+    groups:121    tristrips:14577    triangles:0.65 MILLION  (651441)
+    PMI files:28    PMI buffers:28
+    PMI groups:28    PMI linestrips:1583    PMI line segments:0

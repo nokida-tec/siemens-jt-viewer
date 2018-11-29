@@ -1,0 +1,24 @@
+
+{"title":"ROCKET_MOTOR_Simple_course_a", "psId":16, "units":7, "bboxMin":[-211.235,-73.2333,-73.2541], "bboxMax":[447.542,73.2333,77.0113], "children": [
+	{"title":"PUB000865-006_--ACTUATOR YAW", "psId":315, "units":7, "bboxMin":[334.119,-51.7064,-52.8642], "bboxMax":[388.72,-15.5592,-25.3666], "children": [
+		{"title":"PUB000865-006_--ACTUATOR YAW_MODEL_SOLIDS", "fileRef":"0.bod", "psId":362, "units":7, "bboxMin":[334.119,-51.7064,-52.8642], "bboxMax":[388.72,-15.5592,-25.3666]}
+	]},
+	{"title":"PUB000865-005_--ACTUATOR PITCH", "psId":412, "units":7, "bboxMin":[334.119,15.5592,-52.8642], "bboxMax":[388.72,51.7064,-25.272], "children": [
+		{"title":"PUB000865-005_--ACTUATOR PITCH_MODEL_SOLIDS", "fileRef":"1.bod", "psId":459, "units":7, "bboxMin":[334.119,15.5592,-52.8642], "bboxMax":[388.72,51.7064,-25.272]}
+	]},
+	{"title":"PUB000865-003_--NOZZLE", "psId":510, "units":7, "bboxMin":[321.621,-54.7506,-54.5645], "bboxMax":[447.542,54.7506,54.8127], "children": [
+		{"title":"PUB000865-003_--NOZZLE_MODEL_WF", "fileRef":"2.bod", "psId":552, "units":7, "bboxMin":[327.664,-14.4875,-14.4875], "bboxMax":[328.302,14.4875,14.4875]},
+		{"title":"PUB000865-003_--NOZZLE_MODEL_SOLIDS", "fileRef":"3.bod", "psId":1651, "units":7, "bboxMin":[321.621,-54.7506,-54.5645], "bboxMax":[447.542,54.7506,54.8127]}
+	]},
+	{"title":"PUB000865-001_--LOADED MOTOR", "psId":1712, "units":7, "bboxMin":[-5.63556,-73.1824,-73.2541], "bboxMax":[356.491,73.1824,77.0113], "children": [
+		{"title":"PUB000865-001_--LOADED MOTOR_MODEL_WF", "fileRef":"4.bod", "psId":1752, "units":7, "bboxMin":[336.592,-50.9673,-50.2765], "bboxMax":[342.824,50.9673,5.70297]},
+		{"title":"PUB000865-001_--LOADED MOTOR_MODEL_SOLIDS", "fileRef":"5.bod", "psId":3891, "units":7, "bboxMin":[-5.63556,-73.1824,-73.2541], "bboxMax":[356.491,73.1824,77.0113]}
+	]},
+	{"title":"PUB000865-002_--NOSE CONE", "psId":3981, "units":7, "bboxMin":[-211.235,-73.2333,-73.2333], "bboxMax":[7.56444,73.2333,73.2333], "children": [
+		{"title":"PUB000865-002_--NOSE CONE_MODEL_SOLIDS", "fileRef":"6.bod", "psId":4021, "units":7, "bboxMin":[-211.235,-73.2333,-73.2333], "bboxMax":[7.56444,73.2333,73.2333]}
+	]},
+	{"title":"PUB000865-004_--IGNITER", "psId":4063, "units":7, "bboxMin":[-1.145,-16.3387,-16.4337], "bboxMax":[19.908,16.3387,16.4337], "children": [
+		{"title":"PUB000865-004_--IGNITER_MODEL_WF", "fileRef":"7.bod", "psId":4105, "units":7, "bboxMin":[5.13286,-3.5,-3.5], "bboxMax":[7.249,3.5,3.5]},
+		{"title":"PUB000865-004_--IGNITER_MODEL_SOLIDS", "fileRef":"8.bod", "psId":4268, "units":7, "bboxMin":[-1.145,-16.3387,-16.4337], "bboxMax":[19.908,16.3387,16.4337]}
+	]}
+]}

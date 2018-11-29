@@ -1,0 +1,4 @@
+
+{"title":"2.Cylindrical_design", "psId":16, "units":7, "bboxMin":[0,-1.24985,-1.25], "bboxMax":[4.7,1.24985,1.25], "hasPMI":true, "hasLocalMaterials":true, "children": [
+	{"title":"2.Cylindrical_design_76837", "fileRef":"2.Cylindrical_design_76837.bod", "psId":292, "units":7, "bboxMin":[0,-1.24985,-1.25], "bboxMax":[4.7,1.24985,1.25]}
+]}

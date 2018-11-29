@@ -1,0 +1,9 @@
+
+{"title":"Minifigur_Police_PMI", "psId":16, "units":2, "bboxMin":[-11.8471,0,-5.01951], "bboxMax":[12.1617,41.582,17.4855], "hasPMI":true, "children": [
+	{"title":"Minifigur_A_5257", "fileRef":"0.bod", "psId":295, "units":2, "bboxMin":[-8.198,0,0], "bboxMax":[-0.998,14.6605,7.84]},
+	{"title":"Minifigur_A_5550", "fileRef":"1.bod", "psId":338, "units":2, "bboxMin":[0,0,0], "bboxMax":[7.2,14.6605,7.84]},
+	{"title":"Minifigur_A_5856", "fileRef":"2.bod", "psId":381, "units":2, "bboxMin":[-8.199,13.794,-0.52], "bboxMax":[7.201,34.294,7.42]},
+	{"title":"Minifigur_A_4739", "fileRef":"3.bod", "psId":424, "units":2, "bboxMin":[5.21826,12.2492,0.832612], "bboxMax":[12.1617,27.7322,12.3733]},
+	{"title":"Minifigur_A_5140", "fileRef":"4.bod", "psId":472, "units":2, "bboxMin":[-11.8471,19.6857,0.859981], "bboxMax":[-6.21414,27.7581,17.4855]},
+	{"title":"Minifigur_A_6679", "fileRef":"5.bod", "psId":520, "units":2, "bboxMin":[-9.48083,28.794,-5.01951], "bboxMax":[8.48283,41.582,12.1878]}
+]}
